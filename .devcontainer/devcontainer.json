@@ -1,0 +1,13 @@
+{
+    "name": "sEMG - Ninapro",
+    "image": "mcr.microsoft.com/devcontainers/python:3.12",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    },
+    "postCreateCommand": "pip install numpy scipy pandas matplotlib scikit-learn scikit-image ipykernel psutil"
+}
