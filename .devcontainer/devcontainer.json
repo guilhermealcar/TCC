@@ -9,5 +9,5 @@
             ]
         }
     },
-    "postCreateCommand": "pip install numpy scipy pandas matplotlib scikit-learn scikit-image ipykernel psutil"
+    "postCreateCommand": "pip install numpy scipy pandas matplotlib scikit-learn scikit-image ipykernel psutil seaborn"
 }
