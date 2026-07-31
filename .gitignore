@@ -1,1 +1,13 @@
 Ninapro_DB*/
+preprocessed_data/
+
+# Ignora caches do Python e Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Ignora bancos de dados e matrizes processadas
+data/
+*.npy
+*.mat
+*.zip
