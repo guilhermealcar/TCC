@@ -106,18 +106,32 @@ def sync_repetitions(rep, fs, window_ms, overlap):
 
     return np.array(repetitions)
 
-def split_by_repetition(Y, y, repetitions, test_rep=6):
-    train_mask = (repetitions != test_rep) & (y > 0)
-    test_mask = (repetitions == test_rep) & (y > 0)
+def split_by_repetition(X, y, reps, test_rep=6):
+    """
+    X: windowed EMG data
+    y: gesture labels
+    reps: repetition labels
+    test_rep: which repetition to use for testing
     
-    Y_train, y_train = Y[train_mask], y[train_mask]
-    Y_test, y_test = Y[test_mask], y[test_mask]
+    Common protocol: train on reps 1,3,4,6 and test on reps 2,5
+    Or simpler: test on rep 6, train on rest
+    """
+    # Training: all windows NOT from test_rep, AND gesture > 0 (not rest)
+    train_mask = (reps != test_rep) & (y > 0)
+    # Testing: all windows FROM test_rep, AND gesture > 0
+    test_mask = (reps == test_rep) & (y > 0)
     
-    # Verificação de segurança: se o array for vazio, o shape quebra o código posterior
-    if Y_train.size == 0 or Y_test.size == 0:
-        raise ValueError(f"Erro: Filtro resultou em dados vazios. Verifique se a repetição {test_rep} existe.")
-        
-    return Y_train, Y_test, y_train, y_test
+    X_train = X[train_mask]
+    y_train = y[train_mask]
+    X_test = X[test_mask]
+    y_test = y[test_mask]
+    
+    print(f"Train: {X_train.shape[0]} windows from reps {np.unique(reps[train_mask])}")
+    print(f"Test:  {X_test.shape[0]} windows from rep {test_rep}")
+    print(f"Train classes: {np.unique(y_train)}")
+    print(f"Test classes:  {np.unique(y_test)}")
+    
+    return X_train, X_test, y_train, y_test
 
 ## FEATURE EXTRACTION
 
