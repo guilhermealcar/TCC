@@ -11,3 +11,6 @@ data/
 *.npy
 *.mat
 *.zip
+
+models/
+*.npz

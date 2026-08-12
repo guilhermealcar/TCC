@@ -1,10 +1,16 @@
 import os
+import torch
 
 # Path Configurations
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 RAW_DATA_DIR = os.path.join(DATA_DIR, "raw")
 PREPROCESSED_DIR = os.path.join(DATA_DIR, "preprocessed")
+MODELS_DIR = os.path.join(BASE_DIR, "models")
+if os.environ.get("USE_CPU", "0") == "1":
+    DEVICE = torch.device("cpu")
+else:
+    DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Dynamic Database Configurations
 DATABASE_CONFIGS = {
