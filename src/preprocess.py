@@ -85,6 +85,41 @@ class sEMGPreprocessor:
             
         return X, y, reps
 
+    def extract_dense_windows(self, emg_data: np.ndarray, labels: np.ndarray, reps: np.ndarray, window_size: int = 20) -> tuple:
+        """
+        [main_V4] Extracts highly dense overlapping windows using a 10ms stride (1 sample at 100Hz).
+        This exponentially scales the dataset size and provides shift-invariant training data 
+        for state-of-the-art Deep Learning and Dictionary Learning architectures.
+        
+        Args:
+            emg_data: Standardized continuous sEMG signal (n_samples, n_channels)
+            labels: Continuous label array (n_samples,)
+            reps: Continuous repetition array (n_samples,)
+            window_size: Number of samples per window (default 20 = 200ms at 100Hz)
+            
+        Returns:
+            X_win: 3D tensor of dense windows (n_windows, window_size, n_channels)
+            y_win: 1D array of labels for each window
+            reps_win: 1D array of repetitions for each window
+        """
+        print(f"Extracting DENSE windows (stride=1 sample / 10ms)...")
+        from numpy.lib.stride_tricks import sliding_window_view
+        
+        # sliding_window_view creates a memory-efficient view of the data.
+        # Initial shape: (num_windows, n_channels, window_size)
+        X_view = sliding_window_view(emg_data, window_shape=window_size, axis=0)
+        
+        # Transpose to match our PyTorch/DL standard: (num_windows, window_size, n_channels)
+        X_win = X_view.transpose(0, 2, 1).copy() # .copy() forces allocation so it's safe to modify/save
+        
+        # For a causal system (real-time prediction), the label of a window 
+        # is determined by the physical gesture occurring at the *end* of that window.
+        y_win = labels[window_size - 1:]
+        reps_win = reps[window_size - 1:]
+        
+        print(f"Dense extraction complete. Exploded dataset to {X_win.shape[0]} windows (Shape: {X_win.shape}).")
+        return X_win, y_win, reps_win
+
 def save_preprocessed_hdf5(subject_id: int, X: np.ndarray, y: np.ndarray, reps: np.ndarray, db_name: str = "DB1") -> None:
     """Serializes arrays into a compressed HDF5 dataset."""
     os.makedirs(PREPROCESSED_DIR, exist_ok=True)
