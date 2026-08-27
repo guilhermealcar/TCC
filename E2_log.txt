@@ -1,0 +1,1086 @@
+Loading raw signal from data/raw/Ninapro_DB1/s1/S1_A1_E2.mat...
+Preprocessing signal (Filtering & Standardizing)...
+Extracting 200ms sliding windows...
+Extracting dense windows (size=20, stride=1)...
+Extracting FFT Frequencies...
+Extracting FFT magnitudes...
+Loading Trained Models (Dictionary, Scaler, SVM)...
+Extracting Sparse Dictionary Codes...
+Classifying movements...
+
+[EVALUATION RESULTS]
+Overall Accuracy:       75.82%
+Active Blocks Accuracy: 51.99%
+
+=====================================================================================
+ sEMG TRUE vs PREDICTED TIMELINE LOG
+=====================================================================================
+[000.00s - 004.13s] ✅ TRUE: Rest                         | PRED: Rest
+[004.53s - 004.98s] ❌ TRUE: Thumb up                     | PRED: Extension of index and middle, flexion of others
+[004.98s - 005.61s] ❌ TRUE: Thumb up                     | PRED: Little finger flexion
+[005.61s - 006.92s] ✅ TRUE: Thumb up                     | PRED: Thumb up
+[008.10s - 012.10s] ✅ TRUE: Rest                         | PRED: Rest
+[012.10s - 012.34s] ❌ TRUE: Rest                         | PRED: Pointing index
+[012.34s - 012.82s] ❌ TRUE: Thumb up                     | PRED: Pointing index
+[012.82s - 013.77s] ✅ TRUE: Thumb up                     | PRED: Thumb up
+[013.77s - 014.14s] ❌ TRUE: Thumb up                     | PRED: Prismatic pinch grasp
+[014.14s - 014.36s] ❌ TRUE: Thumb up                     | PRED: Wrist extension with closed hand
+[014.55s - 014.96s] ❌ TRUE: Thumb up                     | PRED: Cut something
+[014.96s - 015.20s] ❌ TRUE: Thumb up                     | PRED: Wrist extension with closed hand
+[015.20s - 015.66s] ❌ TRUE: Thumb up                     | PRED: Lateral grasp
+[015.66s - 016.07s] ❌ TRUE: Thumb up                     | PRED: Pointing index
+[016.18s - 020.41s] ✅ TRUE: Rest                         | PRED: Rest
+[020.41s - 020.66s] ❌ TRUE: Rest                         | PRED: Fingers flexed together in fist
+[020.76s - 021.16s] ❌ TRUE: Thumb up                     | PRED: Flexion of ring and little finger, extension of others
+[021.25s - 023.02s] ✅ TRUE: Thumb up                     | PRED: Thumb up
+[023.02s - 023.39s] ❌ TRUE: Thumb up                     | PRED: Pointing index
+[023.44s - 024.08s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[024.08s - 029.49s] ✅ TRUE: Rest                         | PRED: Rest
+[029.57s - 032.46s] ✅ TRUE: Thumb up                     | PRED: Thumb up
+[032.46s - 032.69s] ❌ TRUE: Thumb up                     | PRED: Little finger extension
+[032.79s - 038.02s] ✅ TRUE: Rest                         | PRED: Rest
+[038.08s - 038.49s] ❌ TRUE: Thumb up                     | PRED: Fingers flexed together in fist
+[038.49s - 038.83s] ❌ TRUE: Thumb up                     | PRED: Little finger extension
+[038.83s - 039.40s] ❌ TRUE: Thumb up                     | PRED: Cut something
+[039.58s - 040.29s] ✅ TRUE: Thumb up                     | PRED: Thumb up
+[040.40s - 041.06s] ❌ TRUE: Thumb up                     | PRED: Thumb abduction
+[041.12s - 046.50s] ✅ TRUE: Rest                         | PRED: Rest
+[046.80s - 048.32s] ✅ TRUE: Thumb up                     | PRED: Thumb up
+[048.44s - 049.03s] ❌ TRUE: Thumb up                     | PRED: Fingers flexed together in fist
+[049.19s - 050.05s] ❌ TRUE: Thumb up                     | PRED: Rest
+[050.05s - 053.97s] ✅ TRUE: Rest                         | PRED: Rest
+[054.14s - 054.40s] ❌ TRUE: Thumb up                     | PRED: Fingers flexed together in fist
+[054.40s - 055.90s] ✅ TRUE: Thumb up                     | PRED: Thumb up
+[055.96s - 056.29s] ❌ TRUE: Thumb up                     | PRED: Wrist extension with closed hand
+[056.35s - 056.99s] ✅ TRUE: Thumb up                     | PRED: Thumb up
+[056.99s - 057.40s] ❌ TRUE: Thumb up                     | PRED: Lateral grasp
+[057.40s - 057.79s] ❌ TRUE: Thumb up                     | PRED: Rest
+[057.85s - 058.16s] ❌ TRUE: Thumb up                     | PRED: Little finger extension
+[058.58s - 062.50s] ✅ TRUE: Rest                         | PRED: Rest
+[062.59s - 063.06s] ❌ TRUE: Thumb up                     | PRED: Pointing index
+[063.22s - 063.95s] ✅ TRUE: Thumb up                     | PRED: Thumb up
+[063.95s - 064.59s] ❌ TRUE: Thumb up                     | PRED: Thumb adduction
+[064.59s - 064.91s] ❌ TRUE: Thumb up                     | PRED: Lateral grasp
+[065.04s - 065.98s] ❌ TRUE: Thumb up                     | PRED: Thumb flexion
+[066.17s - 072.20s] ✅ TRUE: Rest                         | PRED: Rest
+[072.20s - 072.43s] ❌ TRUE: Rest                         | PRED: Wrist pronation (axis: little finger)
+[072.61s - 072.97s] ❌ TRUE: Thumb up                     | PRED: Index finger extension grasp
+[073.06s - 074.41s] ✅ TRUE: Thumb up                     | PRED: Thumb up
+[074.41s - 075.29s] ❌ TRUE: Thumb up                     | PRED: Rest
+[075.29s - 079.42s] ✅ TRUE: Rest                         | PRED: Rest
+[079.42s - 079.62s] ❌ TRUE: Thumb up                     | PRED: Rest
+[079.62s - 080.09s] ❌ TRUE: Thumb up                     | PRED: Fingers flexed together in fist
+[080.09s - 080.29s] ❌ TRUE: Thumb up                     | PRED: Ring flexion
+[080.29s - 081.76s] ✅ TRUE: Thumb up                     | PRED: Thumb up
+[082.12s - 082.57s] ❌ TRUE: Thumb up                     | PRED: Pointing index
+[082.85s - 087.87s] ✅ TRUE: Rest                         | PRED: Rest
+[088.06s - 089.17s] ✅ TRUE: Extension of index and middle, flexion of others | PRED: Extension of index and middle, flexion of others
+[089.18s - 090.71s] ✅ TRUE: Extension of index and middle, flexion of others | PRED: Extension of index and middle, flexion of others
+[090.71s - 091.08s] ❌ TRUE: Rest                         | PRED: Extension of index and middle, flexion of others
+[091.12s - 095.55s] ✅ TRUE: Rest                         | PRED: Rest
+[096.15s - 096.98s] ✅ TRUE: Extension of index and middle, flexion of others | PRED: Extension of index and middle, flexion of others
+[096.98s - 097.49s] ❌ TRUE: Extension of index and middle, flexion of others | PRED: Flexion of ring and little finger, extension of others
+[097.49s - 098.42s] ✅ TRUE: Extension of index and middle, flexion of others | PRED: Extension of index and middle, flexion of others
+[098.45s - 098.72s] ✅ TRUE: Extension of index and middle, flexion of others | PRED: Extension of index and middle, flexion of others
+[098.82s - 099.08s] ❌ TRUE: Rest                         | PRED: Ring flexion
+[099.08s - 099.93s] ✅ TRUE: Rest                         | PRED: Rest
+[099.93s - 100.37s] ❌ TRUE: Rest                         | PRED: Middle flexion
+[100.37s - 102.91s] ✅ TRUE: Rest                         | PRED: Rest
+[102.91s - 103.23s] ❌ TRUE: Rest                         | PRED: Pointing index
+[103.23s - 103.54s] ❌ TRUE: Rest                         | PRED: Little finger flexion
+[103.54s - 103.82s] ❌ TRUE: Rest                         | PRED: Little finger extension
+[103.84s - 104.55s] ✅ TRUE: Rest                         | PRED: Rest
+[104.55s - 104.85s] ❌ TRUE: Rest                         | PRED: Extension of index and middle, flexion of others
+[104.85s - 105.19s] ✅ TRUE: Extension of index and middle, flexion of others | PRED: Extension of index and middle, flexion of others
+[105.37s - 106.79s] ✅ TRUE: Extension of index and middle, flexion of others | PRED: Extension of index and middle, flexion of others
+[106.88s - 107.45s] ✅ TRUE: Extension of index and middle, flexion of others | PRED: Extension of index and middle, flexion of others
+[107.45s - 107.80s] ❌ TRUE: Extension of index and middle, flexion of others | PRED: Pointing index
+[107.87s - 112.93s] ✅ TRUE: Rest                         | PRED: Rest
+[112.94s - 113.34s] ❌ TRUE: Rest                         | PRED: Fingers flexed together in fist
+[113.43s - 113.67s] ✅ TRUE: Extension of index and middle, flexion of others | PRED: Extension of index and middle, flexion of others
+[113.67s - 113.96s] ❌ TRUE: Extension of index and middle, flexion of others | PRED: Little finger flexion
+[113.96s - 114.27s] ✅ TRUE: Extension of index and middle, flexion of others | PRED: Extension of index and middle, flexion of others
+[114.27s - 114.69s] ❌ TRUE: Extension of index and middle, flexion of others | PRED: Flexion of ring and little finger, extension of others
+[114.69s - 115.57s] ✅ TRUE: Extension of index and middle, flexion of others | PRED: Extension of index and middle, flexion of others
+[115.72s - 116.06s] ❌ TRUE: Rest                         | PRED: Pointing index
+[116.06s - 121.34s] ✅ TRUE: Rest                         | PRED: Rest
+[121.34s - 121.56s] ❌ TRUE: Rest                         | PRED: Fingers flexed together in fist
+[121.56s - 121.77s] ❌ TRUE: Extension of index and middle, flexion of others | PRED: Fingers flexed together in fist
+[121.77s - 122.27s] ✅ TRUE: Extension of index and middle, flexion of others | PRED: Extension of index and middle, flexion of others
+[122.27s - 122.63s] ❌ TRUE: Extension of index and middle, flexion of others | PRED: Flexion of ring and little finger, extension of others
+[122.63s - 123.39s] ✅ TRUE: Extension of index and middle, flexion of others | PRED: Extension of index and middle, flexion of others
+[123.40s - 124.62s] ✅ TRUE: Extension of index and middle, flexion of others | PRED: Extension of index and middle, flexion of others
+[124.75s - 129.38s] ✅ TRUE: Rest                         | PRED: Rest
+[129.65s - 131.63s] ✅ TRUE: Extension of index and middle, flexion of others | PRED: Extension of index and middle, flexion of others
+[131.63s - 131.85s] ❌ TRUE: Extension of index and middle, flexion of others | PRED: Flexion of ring and little finger, extension of others
+[131.85s - 132.35s] ✅ TRUE: Extension of index and middle, flexion of others | PRED: Extension of index and middle, flexion of others
+[132.35s - 132.87s] ❌ TRUE: Extension of index and middle, flexion of others | PRED: Pointing index
+[133.13s - 138.32s] ✅ TRUE: Rest                         | PRED: Rest
+[138.38s - 140.98s] ✅ TRUE: Extension of index and middle, flexion of others | PRED: Extension of index and middle, flexion of others
+[140.98s - 141.40s] ❌ TRUE: Extension of index and middle, flexion of others | PRED: Pointing index
+[141.40s - 141.93s] ❌ TRUE: Extension of index and middle, flexion of others | PRED: Rest
+[141.93s - 146.26s] ✅ TRUE: Rest                         | PRED: Rest
+[146.28s - 146.72s] ❌ TRUE: Extension of index and middle, flexion of others | PRED: Fingers flexed together in fist
+[146.72s - 147.23s] ✅ TRUE: Extension of index and middle, flexion of others | PRED: Extension of index and middle, flexion of others
+[147.28s - 149.55s] ✅ TRUE: Extension of index and middle, flexion of others | PRED: Extension of index and middle, flexion of others
+[149.55s - 150.07s] ❌ TRUE: Extension of index and middle, flexion of others | PRED: Pointing index
+[150.24s - 155.86s] ✅ TRUE: Rest                         | PRED: Rest
+[155.90s - 156.31s] ✅ TRUE: Extension of index and middle, flexion of others | PRED: Extension of index and middle, flexion of others
+[156.31s - 156.59s] ❌ TRUE: Extension of index and middle, flexion of others | PRED: Flexion of ring and little finger, extension of others
+[156.59s - 158.34s] ✅ TRUE: Extension of index and middle, flexion of others | PRED: Extension of index and middle, flexion of others
+[158.34s - 158.60s] ❌ TRUE: Extension of index and middle, flexion of others | PRED: Pointing index
+[158.71s - 163.40s] ✅ TRUE: Rest                         | PRED: Rest
+[163.40s - 163.63s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[163.64s - 163.93s] ✅ TRUE: Extension of index and middle, flexion of others | PRED: Extension of index and middle, flexion of others
+[163.93s - 164.28s] ❌ TRUE: Extension of index and middle, flexion of others | PRED: Quadpod grasp
+[164.28s - 166.28s] ✅ TRUE: Extension of index and middle, flexion of others | PRED: Extension of index and middle, flexion of others
+[166.68s - 166.89s] ❌ TRUE: Extension of index and middle, flexion of others | PRED: Thumb extension
+[166.99s - 171.22s] ✅ TRUE: Rest                         | PRED: Rest
+[171.22s - 171.45s] ❌ TRUE: Rest                         | PRED: Extension of index and middle, flexion of others
+[171.45s - 171.73s] ❌ TRUE: Flexion of ring and little finger, extension of others | PRED: Extension of index and middle, flexion of others
+[171.73s - 172.00s] ❌ TRUE: Flexion of ring and little finger, extension of others | PRED: Abduction of all fingers
+[172.00s - 172.42s] ✅ TRUE: Flexion of ring and little finger, extension of others | PRED: Flexion of ring and little finger, extension of others
+[172.42s - 172.66s] ❌ TRUE: Flexion of ring and little finger, extension of others | PRED: Abduction of all fingers
+[172.81s - 173.04s] ✅ TRUE: Flexion of ring and little finger, extension of others | PRED: Flexion of ring and little finger, extension of others
+[173.15s - 173.95s] ✅ TRUE: Flexion of ring and little finger, extension of others | PRED: Flexion of ring and little finger, extension of others
+[173.95s - 174.71s] ❌ TRUE: Flexion of ring and little finger, extension of others | PRED: Extension of index and middle, flexion of others
+[174.71s - 174.93s] ❌ TRUE: Flexion of ring and little finger, extension of others | PRED: Index flexion
+[174.93s - 175.13s] ❌ TRUE: Rest                         | PRED: Index flexion
+[175.13s - 179.58s] ✅ TRUE: Rest                         | PRED: Rest
+[179.58s - 179.81s] ❌ TRUE: Rest                         | PRED: Fingers flexed together in fist
+[179.81s - 180.02s] ❌ TRUE: Flexion of ring and little finger, extension of others | PRED: Fingers flexed together in fist
+[180.23s - 180.60s] ❌ TRUE: Flexion of ring and little finger, extension of others | PRED: Extension of index and middle, flexion of others
+[180.60s - 181.67s] ✅ TRUE: Flexion of ring and little finger, extension of others | PRED: Flexion of ring and little finger, extension of others
+[181.67s - 182.95s] ❌ TRUE: Flexion of ring and little finger, extension of others | PRED: Extension of index and middle, flexion of others
+[183.20s - 188.17s] ✅ TRUE: Rest                         | PRED: Rest
+[188.17s - 188.40s] ❌ TRUE: Rest                         | PRED: Pointing index
+[188.56s - 189.92s] ✅ TRUE: Flexion of ring and little finger, extension of others | PRED: Flexion of ring and little finger, extension of others
+[190.02s - 190.94s] ❌ TRUE: Flexion of ring and little finger, extension of others | PRED: Extension of index and middle, flexion of others
+[190.94s - 191.21s] ❌ TRUE: Rest                         | PRED: Extension of index and middle, flexion of others
+[191.21s - 196.73s] ✅ TRUE: Rest                         | PRED: Rest
+[197.06s - 198.08s] ✅ TRUE: Flexion of ring and little finger, extension of others | PRED: Flexion of ring and little finger, extension of others
+[198.08s - 199.31s] ❌ TRUE: Flexion of ring and little finger, extension of others | PRED: Extension of index and middle, flexion of others
+[199.43s - 199.68s] ❌ TRUE: Rest                         | PRED: Pointing index
+[199.68s - 205.06s] ✅ TRUE: Rest                         | PRED: Rest
+[205.39s - 205.95s] ✅ TRUE: Flexion of ring and little finger, extension of others | PRED: Flexion of ring and little finger, extension of others
+[206.08s - 207.09s] ❌ TRUE: Flexion of ring and little finger, extension of others | PRED: Extension of index and middle, flexion of others
+[207.29s - 207.49s] ✅ TRUE: Flexion of ring and little finger, extension of others | PRED: Flexion of ring and little finger, extension of others
+[207.49s - 207.73s] ❌ TRUE: Flexion of ring and little finger, extension of others | PRED: Extension of index and middle, flexion of others
+[208.22s - 213.42s] ✅ TRUE: Rest                         | PRED: Rest
+[213.42s - 213.63s] ❌ TRUE: Rest                         | PRED: Extension of index and middle, flexion of others
+[213.63s - 213.88s] ❌ TRUE: Flexion of ring and little finger, extension of others | PRED: Extension of index and middle, flexion of others
+[213.88s - 215.16s] ✅ TRUE: Flexion of ring and little finger, extension of others | PRED: Flexion of ring and little finger, extension of others
+[215.16s - 215.71s] ❌ TRUE: Flexion of ring and little finger, extension of others | PRED: Extension of index and middle, flexion of others
+[215.99s - 216.35s] ❌ TRUE: Rest                         | PRED: Extension of index and middle, flexion of others
+[216.64s - 221.73s] ✅ TRUE: Rest                         | PRED: Rest
+[221.76s - 222.07s] ❌ TRUE: Flexion of ring and little finger, extension of others | PRED: Extension of index and middle, flexion of others
+[222.07s - 224.74s] ✅ TRUE: Flexion of ring and little finger, extension of others | PRED: Flexion of ring and little finger, extension of others
+[224.74s - 225.38s] ❌ TRUE: Flexion of ring and little finger, extension of others | PRED: Rest
+[225.38s - 230.30s] ✅ TRUE: Rest                         | PRED: Rest
+[230.42s - 230.82s] ✅ TRUE: Flexion of ring and little finger, extension of others | PRED: Flexion of ring and little finger, extension of others
+[230.82s - 231.25s] ❌ TRUE: Flexion of ring and little finger, extension of others | PRED: Extension of index and middle, flexion of others
+[231.25s - 233.29s] ✅ TRUE: Flexion of ring and little finger, extension of others | PRED: Flexion of ring and little finger, extension of others
+[233.42s - 238.69s] ✅ TRUE: Rest                         | PRED: Rest
+[238.79s - 240.43s] ✅ TRUE: Flexion of ring and little finger, extension of others | PRED: Flexion of ring and little finger, extension of others
+[240.43s - 240.95s] ❌ TRUE: Flexion of ring and little finger, extension of others | PRED: Thumb opposing base of little finger
+[241.05s - 241.48s] ✅ TRUE: Flexion of ring and little finger, extension of others | PRED: Flexion of ring and little finger, extension of others
+[241.62s - 242.54s] ❌ TRUE: Flexion of ring and little finger, extension of others | PRED: Little finger flexion
+[242.64s - 243.19s] ❌ TRUE: Flexion of ring and little finger, extension of others | PRED: Little finger flexion
+[243.19s - 243.39s] ❌ TRUE: Flexion of ring and little finger, extension of others | PRED: Tip pinch grasp
+[243.42s - 243.64s] ❌ TRUE: Flexion of ring and little finger, extension of others | PRED: Parallel extension grasp
+[243.70s - 244.36s] ✅ TRUE: Rest                         | PRED: Rest
+[244.36s - 244.77s] ❌ TRUE: Rest                         | PRED: Pointing index
+[244.77s - 247.10s] ✅ TRUE: Rest                         | PRED: Rest
+[247.40s - 249.64s] ✅ TRUE: Flexion of ring and little finger, extension of others | PRED: Flexion of ring and little finger, extension of others
+[249.74s - 249.98s] ❌ TRUE: Flexion of ring and little finger, extension of others | PRED: Thumb up
+[250.23s - 250.67s] ❌ TRUE: Rest                         | PRED: Pointing index
+[250.67s - 255.90s] ✅ TRUE: Rest                         | PRED: Rest
+[255.90s - 256.10s] ❌ TRUE: Rest                         | PRED: Pointing index
+[256.55s - 257.09s] ❌ TRUE: Thumb opposing base of little finger | PRED: Flexion of ring and little finger, extension of others
+[257.09s - 257.30s] ❌ TRUE: Thumb opposing base of little finger | PRED: Turn a screw
+[257.38s - 257.61s] ❌ TRUE: Thumb opposing base of little finger | PRED: Turn a screw
+[257.65s - 257.99s] ❌ TRUE: Thumb opposing base of little finger | PRED: Middle extension
+[257.99s - 258.82s] ❌ TRUE: Thumb opposing base of little finger | PRED: Ring flexion
+[258.82s - 259.08s] ❌ TRUE: Thumb opposing base of little finger | PRED: Middle flexion
+[259.12s - 264.10s] ✅ TRUE: Rest                         | PRED: Rest
+[264.10s - 264.31s] ❌ TRUE: Rest                         | PRED: Fingers flexed together in fist
+[264.36s - 264.83s] ❌ TRUE: Thumb opposing base of little finger | PRED: Adduction of extended fingers
+[264.83s - 265.40s] ❌ TRUE: Thumb opposing base of little finger | PRED: Index flexion
+[265.54s - 265.94s] ✅ TRUE: Thumb opposing base of little finger | PRED: Thumb opposing base of little finger
+[266.11s - 266.46s] ❌ TRUE: Thumb opposing base of little finger | PRED: Index flexion
+[266.46s - 266.67s] ❌ TRUE: Thumb opposing base of little finger | PRED: Ring flexion
+[266.67s - 267.16s] ❌ TRUE: Thumb opposing base of little finger | PRED: Tip pinch grasp
+[267.17s - 267.46s] ❌ TRUE: Thumb opposing base of little finger | PRED: Middle flexion
+[267.58s - 273.15s] ✅ TRUE: Rest                         | PRED: Rest
+[273.42s - 274.42s] ❌ TRUE: Thumb opposing base of little finger | PRED: Index flexion
+[274.58s - 274.98s] ❌ TRUE: Thumb opposing base of little finger | PRED: Flexion of ring and little finger, extension of others
+[274.98s - 275.42s] ❌ TRUE: Thumb opposing base of little finger | PRED: Wrist extension with closed hand
+[275.43s - 276.16s] ❌ TRUE: Thumb opposing base of little finger | PRED: Rest
+[276.16s - 281.27s] ✅ TRUE: Rest                         | PRED: Rest
+[281.27s - 281.67s] ❌ TRUE: Thumb opposing base of little finger | PRED: Rest
+[281.67s - 281.93s] ❌ TRUE: Thumb opposing base of little finger | PRED: Index flexion
+[281.93s - 282.23s] ❌ TRUE: Thumb opposing base of little finger | PRED: Ring extension
+[282.23s - 282.65s] ❌ TRUE: Thumb opposing base of little finger | PRED: Ring flexion
+[282.65s - 282.90s] ❌ TRUE: Thumb opposing base of little finger | PRED: Middle extension
+[283.01s - 283.24s] ✅ TRUE: Thumb opposing base of little finger | PRED: Thumb opposing base of little finger
+[283.41s - 283.98s] ❌ TRUE: Thumb opposing base of little finger | PRED: Ring flexion
+[283.98s - 284.19s] ❌ TRUE: Thumb opposing base of little finger | PRED: Middle flexion
+[284.33s - 289.85s] ✅ TRUE: Rest                         | PRED: Rest
+[289.89s - 290.51s] ❌ TRUE: Thumb opposing base of little finger | PRED: Wrist pronation (axis: little finger)
+[290.51s - 291.02s] ❌ TRUE: Thumb opposing base of little finger | PRED: Ring flexion
+[291.19s - 292.03s] ❌ TRUE: Thumb opposing base of little finger | PRED: Tip pinch grasp
+[292.54s - 293.08s] ❌ TRUE: Thumb opposing base of little finger | PRED: Rest
+[293.08s - 297.56s] ✅ TRUE: Rest                         | PRED: Rest
+[297.86s - 298.09s] ❌ TRUE: Thumb opposing base of little finger | PRED: Ring flexion
+[298.12s - 298.44s] ❌ TRUE: Thumb opposing base of little finger | PRED: Adduction of extended fingers
+[298.44s - 298.87s] ❌ TRUE: Thumb opposing base of little finger | PRED: Flexion of ring and little finger, extension of others
+[299.00s - 299.48s] ❌ TRUE: Thumb opposing base of little finger | PRED: Little finger extension
+[299.48s - 299.97s] ❌ TRUE: Thumb opposing base of little finger | PRED: Rest
+[299.97s - 300.38s] ❌ TRUE: Thumb opposing base of little finger | PRED: Index flexion
+[300.45s - 300.79s] ❌ TRUE: Thumb opposing base of little finger | PRED: Pointing index
+[300.79s - 301.62s] ❌ TRUE: Thumb opposing base of little finger | PRED: Rest
+[301.62s - 301.93s] ❌ TRUE: Thumb opposing base of little finger | PRED: Thumb flexion
+[301.93s - 302.31s] ❌ TRUE: Thumb opposing base of little finger | PRED: Thumb extension
+[302.44s - 306.04s] ✅ TRUE: Rest                         | PRED: Rest
+[306.04s - 306.35s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[307.11s - 308.19s] ✅ TRUE: Thumb opposing base of little finger | PRED: Thumb opposing base of little finger
+[308.19s - 308.74s] ❌ TRUE: Thumb opposing base of little finger | PRED: Ring flexion
+[308.88s - 309.10s] ❌ TRUE: Rest                         | PRED: Tip pinch grasp
+[309.10s - 314.41s] ✅ TRUE: Rest                         | PRED: Rest
+[314.58s - 314.98s] ❌ TRUE: Thumb opposing base of little finger | PRED: Extension of index and middle, flexion of others
+[315.19s - 315.82s] ❌ TRUE: Thumb opposing base of little finger | PRED: Ring flexion
+[315.89s - 316.22s] ❌ TRUE: Thumb opposing base of little finger | PRED: Ring flexion
+[316.41s - 316.77s] ❌ TRUE: Thumb opposing base of little finger | PRED: Rest
+[316.77s - 317.07s] ❌ TRUE: Thumb opposing base of little finger | PRED: Ring flexion
+[317.07s - 317.31s] ❌ TRUE: Thumb opposing base of little finger | PRED: Middle flexion
+[317.41s - 317.74s] ❌ TRUE: Thumb opposing base of little finger | PRED: Rest
+[317.74s - 323.41s] ✅ TRUE: Rest                         | PRED: Rest
+[323.41s - 323.61s] ❌ TRUE: Rest                         | PRED: Extension of index and middle, flexion of others
+[323.61s - 324.28s] ❌ TRUE: Thumb opposing base of little finger | PRED: Extension of index and middle, flexion of others
+[324.28s - 325.45s] ❌ TRUE: Thumb opposing base of little finger | PRED: Ring flexion
+[325.47s - 331.11s] ✅ TRUE: Rest                         | PRED: Rest
+[331.11s - 331.32s] ❌ TRUE: Rest                         | PRED: Pointing index
+[331.51s - 331.90s] ❌ TRUE: Thumb opposing base of little finger | PRED: Ring flexion
+[331.90s - 332.20s] ❌ TRUE: Thumb opposing base of little finger | PRED: Abduction of all fingers
+[332.20s - 332.64s] ❌ TRUE: Thumb opposing base of little finger | PRED: Tip pinch grasp
+[332.69s - 333.35s] ❌ TRUE: Thumb opposing base of little finger | PRED: Ring flexion
+[333.48s - 339.60s] ✅ TRUE: Rest                         | PRED: Rest
+[339.64s - 340.17s] ❌ TRUE: Abduction of all fingers     | PRED: Pointing index
+[340.22s - 340.78s] ❌ TRUE: Abduction of all fingers     | PRED: Ring flexion
+[340.78s - 341.28s] ❌ TRUE: Abduction of all fingers     | PRED: Extension of index and middle, flexion of others
+[341.28s - 342.34s] ❌ TRUE: Abduction of all fingers     | PRED: Ring flexion
+[342.56s - 348.43s] ✅ TRUE: Rest                         | PRED: Rest
+[348.71s - 349.23s] ❌ TRUE: Abduction of all fingers     | PRED: Thumb opposing base of little finger
+[349.23s - 350.47s] ❌ TRUE: Abduction of all fingers     | PRED: Ring flexion
+[350.47s - 351.00s] ❌ TRUE: Abduction of all fingers     | PRED: Extension of index and middle, flexion of others
+[351.04s - 351.26s] ❌ TRUE: Abduction of all fingers     | PRED: Index flexion
+[351.26s - 351.76s] ❌ TRUE: Abduction of all fingers     | PRED: Rest
+[352.03s - 356.54s] ✅ TRUE: Rest                         | PRED: Rest
+[356.89s - 357.21s] ❌ TRUE: Abduction of all fingers     | PRED: Extension of index and middle, flexion of others
+[357.21s - 357.52s] ❌ TRUE: Abduction of all fingers     | PRED: Thumb opposing base of little finger
+[357.64s - 358.60s] ✅ TRUE: Abduction of all fingers     | PRED: Abduction of all fingers
+[358.60s - 358.98s] ❌ TRUE: Abduction of all fingers     | PRED: Prismatic pinch grasp
+[359.08s - 359.50s] ❌ TRUE: Abduction of all fingers     | PRED: Prismatic pinch grasp
+[359.84s - 364.96s] ✅ TRUE: Rest                         | PRED: Rest
+[365.61s - 365.81s] ❌ TRUE: Abduction of all fingers     | PRED: Ring extension
+[365.91s - 366.19s] ❌ TRUE: Abduction of all fingers     | PRED: Flexion of ring and little finger, extension of others
+[366.19s - 366.74s] ✅ TRUE: Abduction of all fingers     | PRED: Abduction of all fingers
+[366.85s - 367.18s] ✅ TRUE: Abduction of all fingers     | PRED: Abduction of all fingers
+[367.19s - 367.74s] ✅ TRUE: Abduction of all fingers     | PRED: Abduction of all fingers
+[367.74s - 367.99s] ❌ TRUE: Abduction of all fingers     | PRED: Tip pinch grasp
+[368.07s - 368.44s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[368.44s - 373.35s] ✅ TRUE: Rest                         | PRED: Rest
+[373.94s - 374.23s] ❌ TRUE: Abduction of all fingers     | PRED: Adduction of extended fingers
+[374.23s - 375.27s] ✅ TRUE: Abduction of all fingers     | PRED: Abduction of all fingers
+[375.40s - 375.69s] ❌ TRUE: Abduction of all fingers     | PRED: Ring flexion
+[375.69s - 376.07s] ❌ TRUE: Abduction of all fingers     | PRED: Extension of index and middle, flexion of others
+[376.07s - 376.44s] ❌ TRUE: Rest                         | PRED: Extension of index and middle, flexion of others
+[376.44s - 381.67s] ✅ TRUE: Rest                         | PRED: Rest
+[381.67s - 381.88s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[382.21s - 382.60s] ❌ TRUE: Abduction of all fingers     | PRED: Flexion of ring and little finger, extension of others
+[382.60s - 382.97s] ✅ TRUE: Abduction of all fingers     | PRED: Abduction of all fingers
+[382.97s - 383.70s] ❌ TRUE: Abduction of all fingers     | PRED: Middle extension
+[383.76s - 384.06s] ❌ TRUE: Abduction of all fingers     | PRED: Middle extension
+[384.06s - 384.57s] ❌ TRUE: Rest                         | PRED: Middle extension
+[384.57s - 390.49s] ✅ TRUE: Rest                         | PRED: Rest
+[390.99s - 391.72s] ✅ TRUE: Abduction of all fingers     | PRED: Abduction of all fingers
+[391.72s - 391.95s] ❌ TRUE: Abduction of all fingers     | PRED: Middle extension
+[392.00s - 392.27s] ❌ TRUE: Abduction of all fingers     | PRED: Ring flexion
+[392.27s - 392.67s] ❌ TRUE: Abduction of all fingers     | PRED: Adduction of extended fingers
+[392.67s - 392.94s] ❌ TRUE: Abduction of all fingers     | PRED: Thumb abduction
+[392.95s - 398.85s] ✅ TRUE: Rest                         | PRED: Rest
+[399.04s - 400.63s] ✅ TRUE: Abduction of all fingers     | PRED: Abduction of all fingers
+[400.81s - 401.20s] ❌ TRUE: Abduction of all fingers     | PRED: Extension of index and middle, flexion of others
+[401.20s - 401.52s] ❌ TRUE: Rest                         | PRED: Extension of index and middle, flexion of others
+[401.52s - 408.31s] ✅ TRUE: Rest                         | PRED: Rest
+[408.31s - 408.65s] ❌ TRUE: Rest                         | PRED: Abduction of all fingers
+[408.65s - 409.71s] ✅ TRUE: Abduction of all fingers     | PRED: Abduction of all fingers
+[409.82s - 410.04s] ❌ TRUE: Abduction of all fingers     | PRED: Extension of index and middle, flexion of others
+[410.17s - 410.51s] ❌ TRUE: Abduction of all fingers     | PRED: Rest
+[410.51s - 415.35s] ✅ TRUE: Rest                         | PRED: Rest
+[415.44s - 415.67s] ❌ TRUE: Abduction of all fingers     | PRED: Thumb abduction
+[415.67s - 416.40s] ✅ TRUE: Abduction of all fingers     | PRED: Abduction of all fingers
+[416.40s - 416.90s] ❌ TRUE: Abduction of all fingers     | PRED: Middle extension
+[417.10s - 417.84s] ❌ TRUE: Abduction of all fingers     | PRED: Middle extension
+[418.14s - 424.03s] ✅ TRUE: Rest                         | PRED: Rest
+[424.22s - 425.32s] ✅ TRUE: Fingers flexed together in fist | PRED: Fingers flexed together in fist
+[425.42s - 427.28s] ✅ TRUE: Fingers flexed together in fist | PRED: Fingers flexed together in fist
+[427.28s - 427.55s] ❌ TRUE: Fingers flexed together in fist | PRED: Ring flexion
+[427.55s - 427.91s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[427.91s - 431.75s] ✅ TRUE: Rest                         | PRED: Rest
+[432.04s - 432.39s] ❌ TRUE: Fingers flexed together in fist | PRED: Thumb up
+[432.39s - 434.91s] ✅ TRUE: Fingers flexed together in fist | PRED: Fingers flexed together in fist
+[434.91s - 435.15s] ❌ TRUE: Rest                         | PRED: Fingers flexed together in fist
+[435.15s - 435.49s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[435.49s - 436.02s] ❌ TRUE: Rest                         | PRED: Pointing index
+[436.02s - 440.16s] ✅ TRUE: Rest                         | PRED: Rest
+[440.33s - 440.53s] ❌ TRUE: Fingers flexed together in fist | PRED: Pointing index
+[440.53s - 442.94s] ✅ TRUE: Fingers flexed together in fist | PRED: Fingers flexed together in fist
+[442.94s - 443.45s] ❌ TRUE: Rest                         | PRED: Fingers flexed together in fist
+[443.45s - 448.58s] ✅ TRUE: Rest                         | PRED: Rest
+[448.58s - 448.83s] ❌ TRUE: Rest                         | PRED: Pointing index
+[448.87s - 449.20s] ❌ TRUE: Fingers flexed together in fist | PRED: Little finger flexion
+[449.20s - 449.55s] ❌ TRUE: Fingers flexed together in fist | PRED: Extension of index and middle, flexion of others
+[449.69s - 451.90s] ✅ TRUE: Fingers flexed together in fist | PRED: Fingers flexed together in fist
+[451.90s - 452.33s] ❌ TRUE: Fingers flexed together in fist | PRED: Pointing index
+[452.33s - 452.58s] ❌ TRUE: Rest                         | PRED: Pointing index
+[452.58s - 456.73s] ✅ TRUE: Rest                         | PRED: Rest
+[456.73s - 456.95s] ❌ TRUE: Rest                         | PRED: Fingers flexed together in fist
+[457.15s - 457.55s] ❌ TRUE: Fingers flexed together in fist | PRED: Ring flexion
+[457.55s - 457.89s] ❌ TRUE: Fingers flexed together in fist | PRED: Large diameter grasp
+[457.95s - 458.66s] ✅ TRUE: Fingers flexed together in fist | PRED: Fingers flexed together in fist
+[458.71s - 459.13s] ✅ TRUE: Fingers flexed together in fist | PRED: Fingers flexed together in fist
+[459.13s - 459.80s] ❌ TRUE: Fingers flexed together in fist | PRED: Extension type grasp
+[460.22s - 460.57s] ❌ TRUE: Fingers flexed together in fist | PRED: Large diameter grasp
+[460.72s - 461.11s] ❌ TRUE: Fingers flexed together in fist | PRED: Cut something
+[461.11s - 461.52s] ❌ TRUE: Fingers flexed together in fist | PRED: Open a bottle with a tripod grasp
+[461.52s - 461.92s] ❌ TRUE: Fingers flexed together in fist | PRED: Turn a screw
+[462.10s - 462.41s] ❌ TRUE: Rest                         | PRED: Middle extension
+[462.41s - 462.91s] ❌ TRUE: Rest                         | PRED: Pointing index
+[462.91s - 463.45s] ✅ TRUE: Rest                         | PRED: Rest
+[463.45s - 463.88s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[463.88s - 465.57s] ✅ TRUE: Rest                         | PRED: Rest
+[465.57s - 466.20s] ❌ TRUE: Rest                         | PRED: Pointing index
+[466.25s - 466.48s] ❌ TRUE: Fingers flexed together in fist | PRED: Thumb up
+[466.48s - 466.97s] ❌ TRUE: Fingers flexed together in fist | PRED: Little finger flexion
+[466.97s - 467.21s] ✅ TRUE: Fingers flexed together in fist | PRED: Fingers flexed together in fist
+[467.40s - 468.99s] ✅ TRUE: Fingers flexed together in fist | PRED: Fingers flexed together in fist
+[469.08s - 469.37s] ❌ TRUE: Fingers flexed together in fist | PRED: Thumb abduction
+[469.37s - 469.81s] ✅ TRUE: Fingers flexed together in fist | PRED: Fingers flexed together in fist
+[470.22s - 473.98s] ✅ TRUE: Rest                         | PRED: Rest
+[474.40s - 477.63s] ✅ TRUE: Fingers flexed together in fist | PRED: Fingers flexed together in fist
+[477.93s - 478.43s] ❌ TRUE: Fingers flexed together in fist | PRED: Thumb abduction
+[478.43s - 478.69s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[478.69s - 482.37s] ✅ TRUE: Rest                         | PRED: Rest
+[482.44s - 482.74s] ❌ TRUE: Fingers flexed together in fist | PRED: Pointing index
+[482.74s - 485.58s] ✅ TRUE: Fingers flexed together in fist | PRED: Fingers flexed together in fist
+[485.58s - 485.95s] ❌ TRUE: Rest                         | PRED: Fingers flexed together in fist
+[486.14s - 490.20s] ✅ TRUE: Rest                         | PRED: Rest
+[490.20s - 490.56s] ❌ TRUE: Fingers flexed together in fist | PRED: Rest
+[490.68s - 493.19s] ✅ TRUE: Fingers flexed together in fist | PRED: Fingers flexed together in fist
+[493.19s - 493.49s] ❌ TRUE: Fingers flexed together in fist | PRED: Pointing index
+[493.81s - 494.14s] ❌ TRUE: Fingers flexed together in fist | PRED: Thumb abduction
+[494.14s - 494.71s] ❌ TRUE: Fingers flexed together in fist | PRED: Rest
+[494.71s - 495.28s] ❌ TRUE: Fingers flexed together in fist | PRED: Thumb abduction
+[495.61s - 499.09s] ✅ TRUE: Rest                         | PRED: Rest
+[499.17s - 499.73s] ✅ TRUE: Fingers flexed together in fist | PRED: Fingers flexed together in fist
+[499.80s - 501.95s] ✅ TRUE: Fingers flexed together in fist | PRED: Fingers flexed together in fist
+[501.95s - 502.28s] ❌ TRUE: Rest                         | PRED: Fingers flexed together in fist
+[502.28s - 503.32s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[503.32s - 507.74s] ✅ TRUE: Rest                         | PRED: Rest
+[507.89s - 510.66s] ✅ TRUE: Pointing index               | PRED: Pointing index
+[510.66s - 511.18s] ❌ TRUE: Pointing index               | PRED: Rest
+[511.18s - 511.40s] ❌ TRUE: Pointing index               | PRED: Thumb abduction
+[511.40s - 511.79s] ❌ TRUE: Pointing index               | PRED: Ring flexion
+[511.99s - 516.17s] ✅ TRUE: Rest                         | PRED: Rest
+[516.31s - 517.08s] ✅ TRUE: Pointing index               | PRED: Pointing index
+[517.08s - 517.39s] ❌ TRUE: Pointing index               | PRED: Flexion of ring and little finger, extension of others
+[517.42s - 517.63s] ❌ TRUE: Pointing index               | PRED: Flexion of ring and little finger, extension of others
+[517.63s - 519.03s] ✅ TRUE: Pointing index               | PRED: Pointing index
+[519.03s - 519.38s] ❌ TRUE: Pointing index               | PRED: Thumb abduction
+[519.53s - 519.77s] ❌ TRUE: Rest                         | PRED: Ring flexion
+[519.77s - 524.64s] ✅ TRUE: Rest                         | PRED: Rest
+[524.73s - 527.07s] ✅ TRUE: Pointing index               | PRED: Pointing index
+[527.20s - 527.71s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[527.71s - 532.51s] ✅ TRUE: Rest                         | PRED: Rest
+[532.51s - 533.05s] ❌ TRUE: Rest                         | PRED: Pointing index
+[533.05s - 535.19s] ✅ TRUE: Pointing index               | PRED: Pointing index
+[535.19s - 535.73s] ❌ TRUE: Pointing index               | PRED: Fingers flexed together in fist
+[535.82s - 536.12s] ✅ TRUE: Pointing index               | PRED: Pointing index
+[536.14s - 536.47s] ❌ TRUE: Rest                         | PRED: Fingers flexed together in fist
+[536.47s - 541.36s] ✅ TRUE: Rest                         | PRED: Rest
+[541.40s - 544.11s] ✅ TRUE: Pointing index               | PRED: Pointing index
+[544.11s - 544.51s] ❌ TRUE: Rest                         | PRED: Pointing index
+[544.63s - 549.91s] ✅ TRUE: Rest                         | PRED: Rest
+[550.05s - 553.16s] ✅ TRUE: Pointing index               | PRED: Pointing index
+[553.25s - 553.66s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[553.66s - 558.45s] ✅ TRUE: Rest                         | PRED: Rest
+[558.60s - 561.16s] ✅ TRUE: Pointing index               | PRED: Pointing index
+[561.16s - 561.61s] ❌ TRUE: Rest                         | PRED: Pointing index
+[561.61s - 561.81s] ✅ TRUE: Rest                         | PRED: Rest
+[561.92s - 566.83s] ✅ TRUE: Rest                         | PRED: Rest
+[566.96s - 567.30s] ✅ TRUE: Pointing index               | PRED: Pointing index
+[567.30s - 567.92s] ❌ TRUE: Pointing index               | PRED: Extension of index and middle, flexion of others
+[567.92s - 569.04s] ✅ TRUE: Pointing index               | PRED: Pointing index
+[569.04s - 569.41s] ❌ TRUE: Pointing index               | PRED: Rest
+[569.47s - 570.01s] ❌ TRUE: Pointing index               | PRED: Rest
+[570.08s - 570.36s] ❌ TRUE: Rest                         | PRED: Pointing index
+[570.52s - 575.12s] ✅ TRUE: Rest                         | PRED: Rest
+[575.28s - 578.35s] ✅ TRUE: Pointing index               | PRED: Pointing index
+[578.35s - 578.77s] ❌ TRUE: Pointing index               | PRED: Rest
+[578.77s - 579.15s] ❌ TRUE: Pointing index               | PRED: Ring flexion
+[579.15s - 583.57s] ✅ TRUE: Rest                         | PRED: Rest
+[583.59s - 586.48s] ✅ TRUE: Pointing index               | PRED: Pointing index
+[586.52s - 592.47s] ✅ TRUE: Rest                         | PRED: Rest
+[592.69s - 593.03s] ❌ TRUE: Adduction of extended fingers | PRED: Wrist flexion
+[593.03s - 593.53s] ❌ TRUE: Adduction of extended fingers | PRED: Middle extension
+[593.69s - 593.95s] ❌ TRUE: Adduction of extended fingers | PRED: Thumb opposing base of little finger
+[593.95s - 594.34s] ❌ TRUE: Adduction of extended fingers | PRED: Turn a screw
+[594.34s - 594.98s] ❌ TRUE: Adduction of extended fingers | PRED: Ring flexion
+[595.01s - 595.22s] ❌ TRUE: Adduction of extended fingers | PRED: Middle extension
+[595.45s - 595.86s] ❌ TRUE: Adduction of extended fingers | PRED: Fingers flexed together in fist
+[596.11s - 599.97s] ✅ TRUE: Rest                         | PRED: Rest
+[599.97s - 600.20s] ❌ TRUE: Adduction of extended fingers | PRED: Thumb abduction
+[600.50s - 600.99s] ✅ TRUE: Adduction of extended fingers | PRED: Adduction of extended fingers
+[600.99s - 601.34s] ❌ TRUE: Adduction of extended fingers | PRED: Middle extension
+[601.34s - 601.76s] ❌ TRUE: Adduction of extended fingers | PRED: Index flexion
+[601.81s - 602.73s] ❌ TRUE: Adduction of extended fingers | PRED: Index flexion
+[602.89s - 608.21s] ✅ TRUE: Rest                         | PRED: Rest
+[608.21s - 608.45s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[608.69s - 609.27s] ❌ TRUE: Adduction of extended fingers | PRED: Middle extension
+[609.62s - 610.50s] ✅ TRUE: Adduction of extended fingers | PRED: Adduction of extended fingers
+[611.05s - 617.10s] ✅ TRUE: Rest                         | PRED: Rest
+[617.25s - 617.59s] ❌ TRUE: Adduction of extended fingers | PRED: Wrist pronation (axis: little finger)
+[617.59s - 618.37s] ❌ TRUE: Adduction of extended fingers | PRED: Middle extension
+[618.37s - 618.80s] ❌ TRUE: Adduction of extended fingers | PRED: Flexion of ring and little finger, extension of others
+[618.80s - 619.36s] ✅ TRUE: Adduction of extended fingers | PRED: Adduction of extended fingers
+[619.36s - 619.65s] ❌ TRUE: Rest                         | PRED: Adduction of extended fingers
+[619.65s - 625.15s] ✅ TRUE: Rest                         | PRED: Rest
+[625.32s - 625.62s] ✅ TRUE: Adduction of extended fingers | PRED: Adduction of extended fingers
+[625.62s - 626.68s] ❌ TRUE: Adduction of extended fingers | PRED: Middle extension
+[626.68s - 626.99s] ✅ TRUE: Adduction of extended fingers | PRED: Adduction of extended fingers
+[627.09s - 627.42s] ❌ TRUE: Adduction of extended fingers | PRED: Middle extension
+[627.42s - 627.91s] ✅ TRUE: Adduction of extended fingers | PRED: Adduction of extended fingers
+[628.08s - 628.73s] ❌ TRUE: Adduction of extended fingers | PRED: Rest
+[628.73s - 633.29s] ✅ TRUE: Rest                         | PRED: Rest
+[633.65s - 634.11s] ❌ TRUE: Adduction of extended fingers | PRED: Middle extension
+[634.19s - 634.50s] ✅ TRUE: Adduction of extended fingers | PRED: Adduction of extended fingers
+[634.50s - 634.90s] ❌ TRUE: Adduction of extended fingers | PRED: Abduction of all fingers
+[635.03s - 635.50s] ❌ TRUE: Adduction of extended fingers | PRED: Ring flexion
+[635.50s - 635.89s] ❌ TRUE: Adduction of extended fingers | PRED: Middle extension
+[635.89s - 636.16s] ❌ TRUE: Adduction of extended fingers | PRED: Index flexion
+[636.61s - 641.59s] ✅ TRUE: Rest                         | PRED: Rest
+[641.71s - 642.03s] ❌ TRUE: Adduction of extended fingers | PRED: Middle extension
+[642.08s - 644.47s] ✅ TRUE: Adduction of extended fingers | PRED: Adduction of extended fingers
+[644.66s - 645.08s] ❌ TRUE: Adduction of extended fingers | PRED: Rest
+[645.08s - 650.08s] ✅ TRUE: Rest                         | PRED: Rest
+[650.08s - 650.35s] ❌ TRUE: Rest                         | PRED: Middle extension
+[650.44s - 650.93s] ✅ TRUE: Adduction of extended fingers | PRED: Adduction of extended fingers
+[651.03s - 651.42s] ❌ TRUE: Adduction of extended fingers | PRED: Abduction of all fingers
+[651.42s - 651.91s] ❌ TRUE: Adduction of extended fingers | PRED: Middle extension
+[651.91s - 652.12s] ✅ TRUE: Adduction of extended fingers | PRED: Adduction of extended fingers
+[652.49s - 652.76s] ✅ TRUE: Adduction of extended fingers | PRED: Adduction of extended fingers
+[652.83s - 658.29s] ✅ TRUE: Rest                         | PRED: Rest
+[658.41s - 658.69s] ❌ TRUE: Adduction of extended fingers | PRED: Middle extension
+[658.69s - 659.19s] ✅ TRUE: Adduction of extended fingers | PRED: Adduction of extended fingers
+[659.19s - 659.61s] ❌ TRUE: Adduction of extended fingers | PRED: Flexion of ring and little finger, extension of others
+[659.61s - 660.02s] ✅ TRUE: Adduction of extended fingers | PRED: Adduction of extended fingers
+[660.11s - 660.34s] ❌ TRUE: Adduction of extended fingers | PRED: Middle extension
+[660.34s - 661.18s] ✅ TRUE: Adduction of extended fingers | PRED: Adduction of extended fingers
+[661.18s - 661.39s] ❌ TRUE: Rest                         | PRED: Adduction of extended fingers
+[661.47s - 666.91s] ✅ TRUE: Rest                         | PRED: Rest
+[666.99s - 667.44s] ✅ TRUE: Adduction of extended fingers | PRED: Adduction of extended fingers
+[667.44s - 667.72s] ❌ TRUE: Adduction of extended fingers | PRED: Middle extension
+[667.73s - 668.07s] ❌ TRUE: Adduction of extended fingers | PRED: Abduction of all fingers
+[668.07s - 669.79s] ✅ TRUE: Adduction of extended fingers | PRED: Adduction of extended fingers
+[669.90s - 675.84s] ✅ TRUE: Rest                         | PRED: Rest
+[676.03s - 676.37s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Prismatic pinch grasp
+[676.37s - 676.77s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Cut something
+[676.77s - 677.29s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: little finger)
+[677.29s - 677.54s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Cut something
+[677.54s - 678.74s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: little finger)
+[678.74s - 679.12s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist pronation (axis: middle finger)
+[679.22s - 680.15s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[680.15s - 683.92s] ✅ TRUE: Rest                         | PRED: Rest
+[684.16s - 684.36s] ✅ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: middle finger)
+[684.36s - 684.62s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Large diameter grasp
+[684.62s - 685.16s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: little finger)
+[685.35s - 686.27s] ✅ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: middle finger)
+[686.57s - 687.40s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist pronation (axis: middle finger)
+[687.58s - 692.05s] ✅ TRUE: Rest                         | PRED: Rest
+[692.13s - 692.65s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Prismatic pinch grasp
+[692.67s - 693.28s] ✅ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: middle finger)
+[693.33s - 694.83s] ✅ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: middle finger)
+[694.83s - 695.35s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: little finger)
+[695.35s - 696.06s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist pronation (axis: middle finger)
+[696.06s - 696.37s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Thumb abduction
+[696.39s - 700.58s] ✅ TRUE: Rest                         | PRED: Rest
+[700.64s - 701.16s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Prismatic pinch grasp
+[701.43s - 701.70s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: little finger)
+[702.32s - 703.10s] ✅ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: middle finger)
+[703.27s - 703.84s] ✅ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: middle finger)
+[703.84s - 704.10s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Quadpod grasp
+[704.10s - 704.59s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Thumb abduction
+[704.60s - 705.40s] ✅ TRUE: Rest                         | PRED: Rest
+[705.60s - 709.51s] ✅ TRUE: Rest                         | PRED: Rest
+[709.67s - 710.25s] ✅ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: middle finger)
+[710.29s - 710.59s] ✅ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: middle finger)
+[710.59s - 711.43s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: little finger)
+[711.65s - 712.32s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist pronation (axis: middle finger)
+[712.35s - 712.72s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Little finger flexion
+[712.73s - 713.11s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Thumb up
+[713.21s - 713.63s] ❌ TRUE: Rest                         | PRED: Pointing index
+[713.63s - 717.17s] ✅ TRUE: Rest                         | PRED: Rest
+[717.44s - 717.72s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Index flexion
+[717.72s - 717.98s] ✅ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: middle finger)
+[717.98s - 718.39s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: little finger)
+[718.39s - 718.97s] ✅ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: middle finger)
+[719.01s - 719.43s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: little finger)
+[719.43s - 719.98s] ✅ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: middle finger)
+[719.98s - 720.49s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist pronation (axis: middle finger)
+[720.66s - 721.91s] ❌ TRUE: Rest                         | PRED: Pointing index
+[721.91s - 722.35s] ✅ TRUE: Rest                         | PRED: Rest
+[722.35s - 722.73s] ❌ TRUE: Rest                         | PRED: Pointing index
+[722.73s - 725.81s] ✅ TRUE: Rest                         | PRED: Rest
+[725.86s - 726.18s] ✅ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: middle finger)
+[726.18s - 726.53s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Index flexion
+[726.53s - 726.95s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Large diameter grasp
+[726.95s - 727.23s] ✅ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: middle finger)
+[727.31s - 727.54s] ✅ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: middle finger)
+[727.57s - 728.72s] ✅ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: middle finger)
+[728.85s - 729.28s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist pronation (axis: middle finger)
+[729.28s - 729.50s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Thumb up
+[729.82s - 734.27s] ✅ TRUE: Rest                         | PRED: Rest
+[734.27s - 734.48s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Rest
+[734.76s - 735.53s] ✅ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: middle finger)
+[736.24s - 736.93s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: little finger)
+[737.23s - 737.55s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist pronation (axis: middle finger)
+[737.74s - 738.15s] ❌ TRUE: Rest                         | PRED: Pointing index
+[738.15s - 742.74s] ✅ TRUE: Rest                         | PRED: Rest
+[742.95s - 743.55s] ✅ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: middle finger)
+[743.55s - 744.01s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: little finger)
+[744.01s - 744.24s] ✅ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: middle finger)
+[744.28s - 744.64s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: little finger)
+[744.64s - 745.18s] ✅ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: middle finger)
+[745.29s - 745.73s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Prismatic four fingers grasp
+[746.00s - 746.42s] ❌ TRUE: Rest                         | PRED: Pointing index
+[746.42s - 750.91s] ✅ TRUE: Rest                         | PRED: Rest
+[751.20s - 751.48s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Extension type grasp
+[751.66s - 752.02s] ✅ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: middle finger)
+[752.05s - 752.82s] ✅ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: middle finger)
+[752.84s - 753.28s] ✅ TRUE: Wrist supination (axis: middle finger) | PRED: Wrist supination (axis: middle finger)
+[753.38s - 753.79s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Middle flexion
+[753.79s - 754.04s] ❌ TRUE: Wrist supination (axis: middle finger) | PRED: Thumb abduction
+[754.04s - 754.27s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[754.27s - 759.82s] ✅ TRUE: Rest                         | PRED: Rest
+[759.96s - 760.74s] ✅ TRUE: Wrist pronation (axis: middle finger) | PRED: Wrist pronation (axis: middle finger)
+[760.74s - 761.17s] ❌ TRUE: Wrist pronation (axis: middle finger) | PRED: Open a bottle with a tripod grasp
+[761.17s - 762.02s] ✅ TRUE: Wrist pronation (axis: middle finger) | PRED: Wrist pronation (axis: middle finger)
+[762.02s - 762.49s] ❌ TRUE: Rest                         | PRED: Wrist pronation (axis: middle finger)
+[762.49s - 762.93s] ❌ TRUE: Rest                         | PRED: Pointing index
+[762.93s - 767.39s] ✅ TRUE: Rest                         | PRED: Rest
+[767.39s - 768.05s] ❌ TRUE: Wrist pronation (axis: middle finger) | PRED: Rest
+[768.05s - 770.55s] ✅ TRUE: Wrist pronation (axis: middle finger) | PRED: Wrist pronation (axis: middle finger)
+[770.55s - 770.75s] ❌ TRUE: Rest                         | PRED: Wrist pronation (axis: middle finger)
+[770.75s - 772.61s] ✅ TRUE: Rest                         | PRED: Rest
+[772.61s - 772.98s] ❌ TRUE: Rest                         | PRED: Pointing index
+[772.98s - 776.19s] ✅ TRUE: Rest                         | PRED: Rest
+[776.41s - 778.66s] ✅ TRUE: Wrist pronation (axis: middle finger) | PRED: Wrist pronation (axis: middle finger)
+[778.66s - 779.06s] ❌ TRUE: Rest                         | PRED: Wrist pronation (axis: middle finger)
+[779.06s - 779.60s] ❌ TRUE: Rest                         | PRED: Pointing index
+[779.60s - 784.19s] ✅ TRUE: Rest                         | PRED: Rest
+[784.61s - 787.40s] ✅ TRUE: Wrist pronation (axis: middle finger) | PRED: Wrist pronation (axis: middle finger)
+[787.56s - 792.57s] ✅ TRUE: Rest                         | PRED: Rest
+[792.61s - 793.34s] ❌ TRUE: Wrist pronation (axis: middle finger) | PRED: Prismatic pinch grasp
+[793.34s - 795.73s] ✅ TRUE: Wrist pronation (axis: middle finger) | PRED: Wrist pronation (axis: middle finger)
+[795.73s - 795.98s] ❌ TRUE: Rest                         | PRED: Wrist pronation (axis: middle finger)
+[795.98s - 800.76s] ✅ TRUE: Rest                         | PRED: Rest
+[800.90s - 803.94s] ✅ TRUE: Wrist pronation (axis: middle finger) | PRED: Wrist pronation (axis: middle finger)
+[804.13s - 804.37s] ❌ TRUE: Rest                         | PRED: Prismatic pinch grasp
+[804.37s - 808.78s] ✅ TRUE: Rest                         | PRED: Rest
+[808.78s - 809.50s] ❌ TRUE: Rest                         | PRED: Prismatic pinch grasp
+[809.50s - 810.00s] ❌ TRUE: Rest                         | PRED: Wrist pronation (axis: middle finger)
+[810.00s - 812.23s] ✅ TRUE: Wrist pronation (axis: middle finger) | PRED: Wrist pronation (axis: middle finger)
+[812.23s - 812.60s] ❌ TRUE: Rest                         | PRED: Wrist pronation (axis: middle finger)
+[812.65s - 812.95s] ❌ TRUE: Rest                         | PRED: Middle flexion
+[813.22s - 817.70s] ✅ TRUE: Rest                         | PRED: Rest
+[817.79s - 818.22s] ❌ TRUE: Wrist pronation (axis: middle finger) | PRED: Prismatic pinch grasp
+[818.22s - 820.99s] ✅ TRUE: Wrist pronation (axis: middle finger) | PRED: Wrist pronation (axis: middle finger)
+[820.99s - 821.25s] ❌ TRUE: Wrist pronation (axis: middle finger) | PRED: Tip pinch grasp
+[821.53s - 826.02s] ✅ TRUE: Rest                         | PRED: Rest
+[826.04s - 826.39s] ✅ TRUE: Wrist pronation (axis: middle finger) | PRED: Wrist pronation (axis: middle finger)
+[826.39s - 826.79s] ❌ TRUE: Wrist pronation (axis: middle finger) | PRED: Prismatic pinch grasp
+[826.79s - 829.15s] ✅ TRUE: Wrist pronation (axis: middle finger) | PRED: Wrist pronation (axis: middle finger)
+[829.15s - 829.42s] ❌ TRUE: Rest                         | PRED: Wrist pronation (axis: middle finger)
+[829.44s - 834.07s] ✅ TRUE: Rest                         | PRED: Rest
+[834.39s - 837.56s] ✅ TRUE: Wrist pronation (axis: middle finger) | PRED: Wrist pronation (axis: middle finger)
+[837.76s - 842.55s] ✅ TRUE: Rest                         | PRED: Rest
+[842.55s - 844.24s] ❌ TRUE: Rest                         | PRED: Prismatic pinch grasp
+[844.38s - 846.07s] ✅ TRUE: Wrist supination (axis: little finger) | PRED: Wrist supination (axis: little finger)
+[846.07s - 846.28s] ❌ TRUE: Wrist supination (axis: little finger) | PRED: Wrist pronation (axis: middle finger)
+[846.28s - 846.68s] ❌ TRUE: Rest                         | PRED: Wrist pronation (axis: middle finger)
+[846.83s - 852.09s] ✅ TRUE: Rest                         | PRED: Rest
+[852.09s - 852.30s] ❌ TRUE: Wrist supination (axis: little finger) | PRED: Rest
+[852.30s - 852.56s] ❌ TRUE: Wrist supination (axis: little finger) | PRED: Wrist supination (axis: middle finger)
+[852.56s - 853.64s] ✅ TRUE: Wrist supination (axis: little finger) | PRED: Wrist supination (axis: little finger)
+[853.71s - 854.04s] ✅ TRUE: Wrist supination (axis: little finger) | PRED: Wrist supination (axis: little finger)
+[854.04s - 854.36s] ❌ TRUE: Wrist supination (axis: little finger) | PRED: Wrist pronation (axis: middle finger)
+[854.51s - 859.85s] ✅ TRUE: Rest                         | PRED: Rest
+[859.93s - 860.39s] ❌ TRUE: Wrist supination (axis: little finger) | PRED: Thumb extension
+[860.69s - 862.01s] ✅ TRUE: Wrist supination (axis: little finger) | PRED: Wrist supination (axis: little finger)
+[862.16s - 862.63s] ✅ TRUE: Wrist supination (axis: little finger) | PRED: Wrist supination (axis: little finger)
+[862.98s - 868.61s] ✅ TRUE: Rest                         | PRED: Rest
+[868.73s - 869.26s] ❌ TRUE: Wrist supination (axis: little finger) | PRED: Thumb extension
+[869.26s - 869.75s] ✅ TRUE: Wrist supination (axis: little finger) | PRED: Wrist supination (axis: little finger)
+[869.85s - 870.88s] ✅ TRUE: Wrist supination (axis: little finger) | PRED: Wrist supination (axis: little finger)
+[870.88s - 871.13s] ❌ TRUE: Wrist supination (axis: little finger) | PRED: Wrist pronation (axis: middle finger)
+[871.13s - 871.42s] ❌ TRUE: Rest                         | PRED: Wrist pronation (axis: middle finger)
+[871.42s - 876.79s] ✅ TRUE: Rest                         | PRED: Rest
+[876.79s - 877.08s] ❌ TRUE: Wrist supination (axis: little finger) | PRED: Rest
+[877.17s - 877.64s] ❌ TRUE: Wrist supination (axis: little finger) | PRED: Thumb extension
+[877.65s - 878.84s] ✅ TRUE: Wrist supination (axis: little finger) | PRED: Wrist supination (axis: little finger)
+[879.03s - 879.53s] ✅ TRUE: Wrist supination (axis: little finger) | PRED: Wrist supination (axis: little finger)
+[879.86s - 884.18s] ✅ TRUE: Rest                         | PRED: Rest
+[884.18s - 884.76s] ❌ TRUE: Rest                         | PRED: Pointing index
+[884.76s - 885.45s] ✅ TRUE: Rest                         | PRED: Rest
+[885.45s - 885.66s] ❌ TRUE: Rest                         | PRED: Fingers flexed together in fist
+[885.84s - 887.88s] ✅ TRUE: Wrist supination (axis: little finger) | PRED: Wrist supination (axis: little finger)
+[888.00s - 893.22s] ✅ TRUE: Rest                         | PRED: Rest
+[893.22s - 893.50s] ❌ TRUE: Wrist supination (axis: little finger) | PRED: Middle extension
+[893.50s - 894.24s] ❌ TRUE: Wrist supination (axis: little finger) | PRED: Thumb extension
+[894.24s - 894.67s] ❌ TRUE: Wrist supination (axis: little finger) | PRED: Wrist supination (axis: middle finger)
+[894.67s - 895.66s] ✅ TRUE: Wrist supination (axis: little finger) | PRED: Wrist supination (axis: little finger)
+[895.66s - 895.94s] ❌ TRUE: Wrist supination (axis: little finger) | PRED: Wrist supination (axis: middle finger)
+[896.15s - 896.56s] ❌ TRUE: Wrist supination (axis: little finger) | PRED: Thumb up
+[896.64s - 901.88s] ✅ TRUE: Rest                         | PRED: Rest
+[901.96s - 902.69s] ❌ TRUE: Wrist supination (axis: little finger) | PRED: Thumb extension
+[902.69s - 904.05s] ✅ TRUE: Wrist supination (axis: little finger) | PRED: Wrist supination (axis: little finger)
+[904.05s - 904.73s] ❌ TRUE: Wrist supination (axis: little finger) | PRED: Wrist supination (axis: middle finger)
+[905.01s - 905.60s] ✅ TRUE: Rest                         | PRED: Rest
+[905.60s - 905.89s] ❌ TRUE: Rest                         | PRED: Pointing index
+[905.89s - 909.85s] ✅ TRUE: Rest                         | PRED: Rest
+[910.08s - 910.28s] ❌ TRUE: Wrist supination (axis: little finger) | PRED: Adduction of extended fingers
+[910.28s - 911.14s] ❌ TRUE: Wrist supination (axis: little finger) | PRED: Thumb extension
+[911.14s - 912.93s] ✅ TRUE: Wrist supination (axis: little finger) | PRED: Wrist supination (axis: little finger)
+[912.94s - 913.28s] ❌ TRUE: Rest                         | PRED: Wrist pronation (axis: middle finger)
+[913.28s - 914.00s] ✅ TRUE: Rest                         | PRED: Rest
+[914.00s - 914.58s] ❌ TRUE: Rest                         | PRED: Pointing index
+[914.87s - 918.00s] ✅ TRUE: Rest                         | PRED: Rest
+[918.16s - 918.60s] ❌ TRUE: Wrist supination (axis: little finger) | PRED: Wrist pronation (axis: little finger)
+[918.91s - 920.80s] ✅ TRUE: Wrist supination (axis: little finger) | PRED: Wrist supination (axis: little finger)
+[920.85s - 921.09s] ✅ TRUE: Wrist supination (axis: little finger) | PRED: Wrist supination (axis: little finger)
+[921.28s - 921.54s] ❌ TRUE: Wrist supination (axis: little finger) | PRED: Thumb up
+[921.54s - 921.74s] ❌ TRUE: Wrist supination (axis: little finger) | PRED: Middle flexion
+[921.77s - 926.49s] ✅ TRUE: Rest                         | PRED: Rest
+[926.65s - 927.10s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Middle extension
+[927.10s - 927.70s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Index flexion
+[927.88s - 928.18s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Ring extension
+[928.18s - 928.67s] ✅ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist pronation (axis: little finger)
+[928.67s - 929.23s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist flexion
+[929.23s - 929.49s] ✅ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist pronation (axis: little finger)
+[929.53s - 929.87s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Pointing index
+[930.05s - 934.74s] ✅ TRUE: Rest                         | PRED: Rest
+[934.84s - 936.83s] ✅ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist pronation (axis: little finger)
+[936.91s - 937.59s] ✅ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist pronation (axis: little finger)
+[937.69s - 938.19s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Index flexion
+[938.19s - 938.55s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Thumb extension
+[938.55s - 938.92s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Rest
+[938.92s - 943.08s] ✅ TRUE: Rest                         | PRED: Rest
+[943.08s - 943.31s] ❌ TRUE: Rest                         | PRED: Wrist pronation (axis: little finger)
+[943.31s - 944.16s] ✅ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist pronation (axis: little finger)
+[944.45s - 945.05s] ✅ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist pronation (axis: little finger)
+[945.09s - 945.90s] ✅ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist pronation (axis: little finger)
+[945.90s - 946.15s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Index extension
+[946.15s - 946.58s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Index flexion
+[946.76s - 946.99s] ❌ TRUE: Rest                         | PRED: Thumb extension
+[946.99s - 951.73s] ✅ TRUE: Rest                         | PRED: Rest
+[951.83s - 952.65s] ✅ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist pronation (axis: little finger)
+[952.84s - 953.43s] ✅ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist pronation (axis: little finger)
+[953.43s - 953.82s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Parallel extension grasp
+[953.82s - 955.19s] ✅ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist pronation (axis: little finger)
+[955.19s - 955.52s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Ring flexion
+[955.67s - 955.97s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[955.97s - 959.69s] ✅ TRUE: Rest                         | PRED: Rest
+[959.99s - 960.45s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Middle extension
+[960.45s - 960.78s] ✅ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist pronation (axis: little finger)
+[960.78s - 962.52s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist flexion
+[962.52s - 963.21s] ✅ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist pronation (axis: little finger)
+[963.21s - 963.95s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Index flexion
+[963.95s - 964.46s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Thumb abduction
+[964.46s - 964.68s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Ring flexion
+[964.74s - 968.45s] ✅ TRUE: Rest                         | PRED: Rest
+[968.63s - 968.84s] ✅ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist pronation (axis: little finger)
+[969.03s - 969.66s] ✅ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist pronation (axis: little finger)
+[969.66s - 969.95s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist flexion
+[970.14s - 970.43s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Parallel extension grasp
+[970.43s - 971.31s] ✅ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist pronation (axis: little finger)
+[971.31s - 971.61s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Thumb up
+[971.61s - 972.10s] ✅ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist pronation (axis: little finger)
+[972.42s - 976.79s] ✅ TRUE: Rest                         | PRED: Rest
+[976.86s - 977.06s] ❌ TRUE: Rest                         | PRED: Wrist pronation (axis: little finger)
+[977.06s - 977.97s] ✅ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist pronation (axis: little finger)
+[977.97s - 979.51s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist flexion
+[979.51s - 980.32s] ✅ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist pronation (axis: little finger)
+[980.35s - 980.57s] ❌ TRUE: Rest                         | PRED: Thumb up
+[980.75s - 981.55s] ✅ TRUE: Rest                         | PRED: Rest
+[981.73s - 985.32s] ✅ TRUE: Rest                         | PRED: Rest
+[985.50s - 986.95s] ✅ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist pronation (axis: little finger)
+[987.11s - 987.37s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Open a bottle with a tripod grasp
+[987.37s - 987.64s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Parallel extension grasp
+[987.64s - 987.88s] ✅ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist pronation (axis: little finger)
+[987.88s - 988.16s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist flexion
+[988.32s - 988.55s] ✅ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist pronation (axis: little finger)
+[988.65s - 989.11s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[989.11s - 994.09s] ✅ TRUE: Rest                         | PRED: Rest
+[994.68s - 995.38s] ✅ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist pronation (axis: little finger)
+[995.38s - 995.99s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist flexion
+[995.99s - 996.25s] ✅ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist pronation (axis: little finger)
+[996.65s - 996.93s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Flexion of ring and little finger, extension of others
+[997.24s - 1001.87s] ✅ TRUE: Rest                         | PRED: Rest
+[1001.87s - 1002.12s] ❌ TRUE: Rest                         | PRED: Wrist pronation (axis: little finger)
+[1002.12s - 1003.42s] ✅ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist pronation (axis: little finger)
+[1003.42s - 1003.91s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist flexion
+[1004.34s - 1004.74s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Tip pinch grasp
+[1004.74s - 1005.18s] ❌ TRUE: Wrist pronation (axis: little finger) | PRED: Wrist flexion
+[1005.59s - 1010.53s] ✅ TRUE: Rest                         | PRED: Rest
+[1010.53s - 1010.79s] ❌ TRUE: Rest                         | PRED: Wrist pronation (axis: little finger)
+[1010.79s - 1011.21s] ❌ TRUE: Wrist flexion                | PRED: Wrist pronation (axis: little finger)
+[1011.29s - 1012.50s] ❌ TRUE: Wrist flexion                | PRED: Wrist pronation (axis: little finger)
+[1012.50s - 1013.10s] ❌ TRUE: Wrist flexion                | PRED: Ring flexion
+[1013.10s - 1013.38s] ❌ TRUE: Wrist flexion                | PRED: Lateral grasp
+[1013.38s - 1013.68s] ✅ TRUE: Wrist flexion                | PRED: Wrist flexion
+[1013.68s - 1014.19s] ❌ TRUE: Wrist flexion                | PRED: Index flexion
+[1014.19s - 1014.76s] ✅ TRUE: Wrist flexion                | PRED: Wrist flexion
+[1014.76s - 1015.08s] ❌ TRUE: Wrist flexion                | PRED: Lateral grasp
+[1015.08s - 1015.46s] ✅ TRUE: Wrist flexion                | PRED: Wrist flexion
+[1015.89s - 1016.13s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[1016.13s - 1018.94s] ✅ TRUE: Rest                         | PRED: Rest
+[1019.15s - 1019.74s] ❌ TRUE: Wrist flexion                | PRED: Middle extension
+[1019.74s - 1021.90s] ✅ TRUE: Wrist flexion                | PRED: Wrist flexion
+[1021.90s - 1022.27s] ❌ TRUE: Rest                         | PRED: Wrist flexion
+[1022.27s - 1022.61s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[1022.61s - 1023.15s] ✅ TRUE: Rest                         | PRED: Rest
+[1023.15s - 1023.51s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[1023.51s - 1027.93s] ✅ TRUE: Rest                         | PRED: Rest
+[1028.31s - 1028.53s] ❌ TRUE: Wrist flexion                | PRED: Lateral grasp
+[1028.53s - 1030.40s] ✅ TRUE: Wrist flexion                | PRED: Wrist flexion
+[1030.40s - 1031.01s] ❌ TRUE: Wrist flexion                | PRED: Ring flexion
+[1031.14s - 1031.56s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[1031.56s - 1033.39s] ✅ TRUE: Rest                         | PRED: Rest
+[1033.39s - 1033.89s] ❌ TRUE: Rest                         | PRED: Prismatic pinch grasp
+[1033.89s - 1034.31s] ❌ TRUE: Rest                         | PRED: Parallel extension grasp
+[1034.67s - 1035.29s] ❌ TRUE: Rest                         | PRED: Prismatic pinch grasp
+[1035.47s - 1036.12s] ❌ TRUE: Wrist flexion                | PRED: Parallel extension grasp
+[1036.48s - 1038.77s] ✅ TRUE: Wrist flexion                | PRED: Wrist flexion
+[1038.77s - 1039.00s] ❌ TRUE: Wrist flexion                | PRED: Lateral grasp
+[1039.19s - 1040.06s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[1040.06s - 1044.52s] ✅ TRUE: Rest                         | PRED: Rest
+[1044.58s - 1044.94s] ❌ TRUE: Wrist flexion                | PRED: Ring flexion
+[1044.94s - 1045.36s] ❌ TRUE: Wrist flexion                | PRED: Lateral grasp
+[1045.36s - 1047.07s] ✅ TRUE: Wrist flexion                | PRED: Wrist flexion
+[1047.07s - 1047.38s] ❌ TRUE: Wrist flexion                | PRED: Ring flexion
+[1047.45s - 1047.85s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[1047.85s - 1048.49s] ✅ TRUE: Rest                         | PRED: Rest
+[1048.67s - 1052.97s] ✅ TRUE: Rest                         | PRED: Rest
+[1053.08s - 1053.54s] ❌ TRUE: Wrist flexion                | PRED: Wrist pronation (axis: little finger)
+[1053.54s - 1055.57s] ✅ TRUE: Wrist flexion                | PRED: Wrist flexion
+[1055.57s - 1055.90s] ❌ TRUE: Wrist flexion                | PRED: Ring flexion
+[1056.42s - 1060.92s] ✅ TRUE: Rest                         | PRED: Rest
+[1061.02s - 1062.17s] ✅ TRUE: Wrist flexion                | PRED: Wrist flexion
+[1062.17s - 1062.49s] ❌ TRUE: Wrist flexion                | PRED: Lateral grasp
+[1062.49s - 1064.09s] ✅ TRUE: Wrist flexion                | PRED: Wrist flexion
+[1064.09s - 1064.31s] ❌ TRUE: Rest                         | PRED: Wrist flexion
+[1064.45s - 1069.23s] ✅ TRUE: Rest                         | PRED: Rest
+[1069.54s - 1072.26s] ✅ TRUE: Wrist flexion                | PRED: Wrist flexion
+[1072.26s - 1072.57s] ❌ TRUE: Wrist flexion                | PRED: Ring flexion
+[1072.57s - 1073.01s] ❌ TRUE: Rest                         | PRED: Ring flexion
+[1073.01s - 1077.95s] ✅ TRUE: Rest                         | PRED: Rest
+[1078.12s - 1078.51s] ❌ TRUE: Wrist flexion                | PRED: Index flexion
+[1078.51s - 1080.57s] ✅ TRUE: Wrist flexion                | PRED: Wrist flexion
+[1080.57s - 1081.01s] ❌ TRUE: Wrist flexion                | PRED: Thumb abduction
+[1081.04s - 1083.95s] ✅ TRUE: Rest                         | PRED: Rest
+[1084.10s - 1085.07s] ❌ TRUE: Rest                         | PRED: Pointing index
+[1085.07s - 1087.39s] ✅ TRUE: Rest                         | PRED: Rest
+[1087.39s - 1087.61s] ❌ TRUE: Rest                         | PRED: Tip pinch grasp
+[1087.61s - 1088.02s] ❌ TRUE: Rest                         | PRED: Wrist flexion
+[1088.02s - 1089.60s] ✅ TRUE: Wrist flexion                | PRED: Wrist flexion
+[1089.68s - 1089.89s] ❌ TRUE: Wrist flexion                | PRED: Ring flexion
+[1090.15s - 1095.03s] ✅ TRUE: Rest                         | PRED: Rest
+[1095.22s - 1096.01s] ❌ TRUE: Wrist extension              | PRED: Middle extension
+[1096.01s - 1097.26s] ❌ TRUE: Wrist extension              | PRED: Wrist radial deviation
+[1097.58s - 1102.84s] ✅ TRUE: Rest                         | PRED: Rest
+[1102.87s - 1103.10s] ❌ TRUE: Wrist extension              | PRED: Thumb abduction
+[1103.10s - 1103.33s] ❌ TRUE: Wrist extension              | PRED: Ring flexion
+[1103.49s - 1105.01s] ❌ TRUE: Wrist extension              | PRED: Middle extension
+[1105.01s - 1105.34s] ❌ TRUE: Wrist extension              | PRED: Wrist radial deviation
+[1105.42s - 1105.75s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[1105.89s - 1111.77s] ✅ TRUE: Rest                         | PRED: Rest
+[1111.77s - 1112.14s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[1112.16s - 1112.40s] ✅ TRUE: Wrist extension              | PRED: Wrist extension
+[1112.67s - 1113.76s] ✅ TRUE: Wrist extension              | PRED: Wrist extension
+[1113.85s - 1114.26s] ❌ TRUE: Wrist extension              | PRED: Wrist radial deviation
+[1114.33s - 1114.68s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[1114.68s - 1119.86s] ✅ TRUE: Rest                         | PRED: Rest
+[1119.94s - 1120.23s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[1120.47s - 1120.95s] ❌ TRUE: Wrist extension              | PRED: Middle extension
+[1120.95s - 1121.41s] ✅ TRUE: Wrist extension              | PRED: Wrist extension
+[1121.41s - 1121.90s] ❌ TRUE: Wrist extension              | PRED: Wrist radial deviation
+[1121.90s - 1122.10s] ✅ TRUE: Wrist extension              | PRED: Wrist extension
+[1122.22s - 1122.52s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[1122.52s - 1128.06s] ✅ TRUE: Rest                         | PRED: Rest
+[1128.06s - 1128.37s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[1128.38s - 1129.17s] ❌ TRUE: Wrist extension              | PRED: Middle extension
+[1129.35s - 1130.19s] ❌ TRUE: Wrist extension              | PRED: Wrist radial deviation
+[1130.35s - 1130.75s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[1130.75s - 1136.63s] ✅ TRUE: Rest                         | PRED: Rest
+[1136.72s - 1137.09s] ❌ TRUE: Wrist extension              | PRED: Thumb abduction
+[1137.09s - 1137.80s] ❌ TRUE: Wrist extension              | PRED: Middle extension
+[1138.20s - 1138.74s] ✅ TRUE: Wrist extension              | PRED: Wrist extension
+[1138.74s - 1139.09s] ❌ TRUE: Rest                         | PRED: Wrist extension
+[1139.22s - 1145.30s] ✅ TRUE: Rest                         | PRED: Rest
+[1145.30s - 1145.58s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[1145.68s - 1146.20s] ❌ TRUE: Wrist extension              | PRED: Middle extension
+[1146.20s - 1146.44s] ✅ TRUE: Wrist extension              | PRED: Wrist extension
+[1146.44s - 1147.15s] ❌ TRUE: Wrist extension              | PRED: Wrist radial deviation
+[1147.45s - 1147.76s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[1147.76s - 1153.14s] ✅ TRUE: Rest                         | PRED: Rest
+[1153.45s - 1153.72s] ❌ TRUE: Wrist extension              | PRED: Middle extension
+[1153.72s - 1154.22s] ✅ TRUE: Wrist extension              | PRED: Wrist extension
+[1154.22s - 1155.42s] ❌ TRUE: Wrist extension              | PRED: Wrist radial deviation
+[1155.59s - 1155.80s] ✅ TRUE: Wrist extension              | PRED: Wrist extension
+[1155.85s - 1156.22s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[1156.22s - 1162.15s] ✅ TRUE: Rest                         | PRED: Rest
+[1162.44s - 1162.74s] ✅ TRUE: Wrist extension              | PRED: Wrist extension
+[1162.74s - 1162.97s] ❌ TRUE: Wrist extension              | PRED: Middle extension
+[1162.98s - 1163.62s] ❌ TRUE: Wrist extension              | PRED: Wrist radial deviation
+[1163.66s - 1164.10s] ✅ TRUE: Wrist extension              | PRED: Wrist extension
+[1164.22s - 1164.57s] ❌ TRUE: Rest                         | PRED: Fingers flexed together in fist
+[1164.57s - 1166.86s] ✅ TRUE: Rest                         | PRED: Rest
+[1166.86s - 1167.39s] ❌ TRUE: Rest                         | PRED: Pointing index
+[1167.39s - 1170.41s] ✅ TRUE: Rest                         | PRED: Rest
+[1170.42s - 1170.70s] ❌ TRUE: Rest                         | PRED: Wrist extension
+[1170.71s - 1171.03s] ❌ TRUE: Wrist extension              | PRED: Ring flexion
+[1171.03s - 1171.56s] ❌ TRUE: Wrist extension              | PRED: Middle extension
+[1171.56s - 1171.90s] ❌ TRUE: Wrist extension              | PRED: Wrist radial deviation
+[1171.90s - 1172.60s] ✅ TRUE: Wrist extension              | PRED: Wrist extension
+[1172.74s - 1173.31s] ❌ TRUE: Rest                         | PRED: Pointing index
+[1173.31s - 1178.92s] ✅ TRUE: Rest                         | PRED: Rest
+[1179.07s - 1179.27s] ❌ TRUE: Rest                         | PRED: Wrist extension
+[1179.27s - 1179.55s] ❌ TRUE: Wrist radial deviation       | PRED: Wrist extension
+[1179.55s - 1181.76s] ✅ TRUE: Wrist radial deviation       | PRED: Wrist radial deviation
+[1181.76s - 1182.14s] ❌ TRUE: Wrist radial deviation       | PRED: Ring flexion
+[1182.24s - 1187.52s] ✅ TRUE: Rest                         | PRED: Rest
+[1187.52s - 1187.75s] ❌ TRUE: Rest                         | PRED: Wrist radial deviation
+[1187.75s - 1188.18s] ✅ TRUE: Wrist radial deviation       | PRED: Wrist radial deviation
+[1188.32s - 1188.59s] ❌ TRUE: Wrist radial deviation       | PRED: Fixed hook grasp
+[1188.59s - 1189.69s] ✅ TRUE: Wrist radial deviation       | PRED: Wrist radial deviation
+[1189.69s - 1189.90s] ❌ TRUE: Rest                         | PRED: Wrist radial deviation
+[1189.90s - 1195.42s] ✅ TRUE: Rest                         | PRED: Rest
+[1195.61s - 1196.14s] ✅ TRUE: Wrist radial deviation       | PRED: Wrist radial deviation
+[1196.30s - 1197.02s] ✅ TRUE: Wrist radial deviation       | PRED: Wrist radial deviation
+[1197.02s - 1197.23s] ❌ TRUE: Wrist radial deviation       | PRED: Cut something
+[1197.23s - 1197.97s] ✅ TRUE: Wrist radial deviation       | PRED: Wrist radial deviation
+[1197.97s - 1198.22s] ❌ TRUE: Rest                         | PRED: Wrist radial deviation
+[1198.22s - 1198.47s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[1198.47s - 1203.54s] ✅ TRUE: Rest                         | PRED: Rest
+[1203.64s - 1206.54s] ✅ TRUE: Wrist radial deviation       | PRED: Wrist radial deviation
+[1206.71s - 1212.34s] ✅ TRUE: Rest                         | PRED: Rest
+[1212.67s - 1215.29s] ✅ TRUE: Wrist radial deviation       | PRED: Wrist radial deviation
+[1215.40s - 1220.62s] ✅ TRUE: Rest                         | PRED: Rest
+[1220.80s - 1221.26s] ✅ TRUE: Wrist radial deviation       | PRED: Wrist radial deviation
+[1221.50s - 1221.72s] ❌ TRUE: Wrist radial deviation       | PRED: Cut something
+[1221.72s - 1222.28s] ✅ TRUE: Wrist radial deviation       | PRED: Wrist radial deviation
+[1222.28s - 1222.80s] ❌ TRUE: Wrist radial deviation       | PRED: Cut something
+[1222.80s - 1223.38s] ✅ TRUE: Wrist radial deviation       | PRED: Wrist radial deviation
+[1223.38s - 1223.80s] ❌ TRUE: Rest                         | PRED: Wrist radial deviation
+[1223.80s - 1229.04s] ✅ TRUE: Rest                         | PRED: Rest
+[1229.27s - 1229.48s] ❌ TRUE: Wrist radial deviation       | PRED: Three finger sphere grasp
+[1229.63s - 1231.53s] ✅ TRUE: Wrist radial deviation       | PRED: Wrist radial deviation
+[1231.53s - 1231.86s] ❌ TRUE: Rest                         | PRED: Wrist radial deviation
+[1231.86s - 1238.06s] ✅ TRUE: Rest                         | PRED: Rest
+[1238.17s - 1238.42s] ❌ TRUE: Rest                         | PRED: Wrist radial deviation
+[1238.42s - 1238.76s] ✅ TRUE: Wrist radial deviation       | PRED: Wrist radial deviation
+[1239.04s - 1240.32s] ✅ TRUE: Wrist radial deviation       | PRED: Wrist radial deviation
+[1240.32s - 1240.70s] ❌ TRUE: Rest                         | PRED: Wrist radial deviation
+[1240.70s - 1245.75s] ✅ TRUE: Rest                         | PRED: Rest
+[1245.85s - 1248.76s] ✅ TRUE: Wrist radial deviation       | PRED: Wrist radial deviation
+[1248.76s - 1249.02s] ❌ TRUE: Rest                         | PRED: Wrist radial deviation
+[1249.11s - 1254.24s] ✅ TRUE: Rest                         | PRED: Rest
+[1254.35s - 1254.66s] ❌ TRUE: Wrist radial deviation       | PRED: Middle extension
+[1254.66s - 1257.49s] ✅ TRUE: Wrist radial deviation       | PRED: Wrist radial deviation
+[1257.49s - 1257.74s] ❌ TRUE: Wrist radial deviation       | PRED: Thumb abduction
+[1257.99s - 1262.97s] ✅ TRUE: Rest                         | PRED: Rest
+[1263.14s - 1264.57s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist flexion
+[1264.60s - 1265.26s] ❌ TRUE: Wrist ulnar deviation        | PRED: Turn a screw
+[1265.45s - 1265.90s] ✅ TRUE: Wrist ulnar deviation        | PRED: Wrist ulnar deviation
+[1265.90s - 1266.19s] ❌ TRUE: Wrist ulnar deviation        | PRED: Thumb adduction
+[1266.45s - 1266.86s] ❌ TRUE: Rest                         | PRED: Fingers flexed together in fist
+[1266.86s - 1267.10s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[1267.10s - 1270.90s] ✅ TRUE: Rest                         | PRED: Rest
+[1271.21s - 1271.64s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist pronation (axis: middle finger)
+[1271.66s - 1272.20s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist pronation (axis: little finger)
+[1272.45s - 1272.75s] ❌ TRUE: Wrist ulnar deviation        | PRED: Ring grasp
+[1272.75s - 1273.51s] ❌ TRUE: Wrist ulnar deviation        | PRED: Turn a screw
+[1273.53s - 1274.16s] ✅ TRUE: Wrist ulnar deviation        | PRED: Wrist ulnar deviation
+[1274.24s - 1274.70s] ❌ TRUE: Wrist ulnar deviation        | PRED: Thumb flexion
+[1274.77s - 1275.19s] ❌ TRUE: Wrist ulnar deviation        | PRED: Pointing index
+[1275.31s - 1279.42s] ✅ TRUE: Rest                         | PRED: Rest
+[1279.56s - 1279.81s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist flexion
+[1279.81s - 1280.21s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist pronation (axis: little finger)
+[1280.21s - 1280.47s] ❌ TRUE: Wrist ulnar deviation        | PRED: Ring grasp
+[1280.47s - 1281.75s] ❌ TRUE: Wrist ulnar deviation        | PRED: Turn a screw
+[1281.80s - 1282.21s] ❌ TRUE: Wrist ulnar deviation        | PRED: Large diameter grasp
+[1282.21s - 1282.49s] ✅ TRUE: Wrist ulnar deviation        | PRED: Wrist ulnar deviation
+[1282.49s - 1282.86s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist extension with closed hand
+[1282.86s - 1283.16s] ❌ TRUE: Wrist ulnar deviation        | PRED: Extension of index and middle, flexion of others
+[1283.21s - 1283.49s] ❌ TRUE: Rest                         | PRED: Fingers flexed together in fist
+[1283.49s - 1283.73s] ❌ TRUE: Rest                         | PRED: Pointing index
+[1283.81s - 1287.79s] ✅ TRUE: Rest                         | PRED: Rest
+[1287.80s - 1288.03s] ❌ TRUE: Rest                         | PRED: Wrist pronation (axis: middle finger)
+[1288.03s - 1288.58s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist pronation (axis: middle finger)
+[1288.71s - 1289.26s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist flexion
+[1289.40s - 1290.27s] ❌ TRUE: Wrist ulnar deviation        | PRED: Turn a screw
+[1290.51s - 1291.05s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist extension with closed hand
+[1291.14s - 1291.37s] ❌ TRUE: Wrist ulnar deviation        | PRED: Thumb flexion
+[1291.48s - 1291.76s] ❌ TRUE: Rest                         | PRED: Cut something
+[1291.79s - 1292.10s] ❌ TRUE: Rest                         | PRED: Pointing index
+[1292.10s - 1296.37s] ✅ TRUE: Rest                         | PRED: Rest
+[1296.42s - 1296.81s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist extension with closed hand
+[1296.94s - 1297.44s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist pronation (axis: little finger)
+[1297.44s - 1297.80s] ❌ TRUE: Wrist ulnar deviation        | PRED: Precision sphere grasp
+[1297.80s - 1298.35s] ❌ TRUE: Wrist ulnar deviation        | PRED: Turn a screw
+[1298.35s - 1298.71s] ❌ TRUE: Wrist ulnar deviation        | PRED: Large diameter grasp
+[1298.99s - 1299.25s] ❌ TRUE: Wrist ulnar deviation        | PRED: Thumb adduction
+[1299.96s - 1300.35s] ❌ TRUE: Rest                         | PRED: Pointing index
+[1300.51s - 1304.79s] ✅ TRUE: Rest                         | PRED: Rest
+[1304.92s - 1305.35s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist extension with closed hand
+[1305.35s - 1305.96s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist flexion
+[1305.96s - 1306.70s] ❌ TRUE: Wrist ulnar deviation        | PRED: Turn a screw
+[1306.70s - 1307.08s] ❌ TRUE: Wrist ulnar deviation        | PRED: Precision sphere grasp
+[1307.08s - 1307.53s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist extension with closed hand
+[1307.65s - 1307.85s] ❌ TRUE: Rest                         | PRED: Wrist pronation (axis: little finger)
+[1307.85s - 1308.26s] ❌ TRUE: Rest                         | PRED: Pointing index
+[1308.26s - 1308.47s] ❌ TRUE: Rest                         | PRED: Wrist radial deviation
+[1308.47s - 1313.12s] ✅ TRUE: Rest                         | PRED: Rest
+[1313.14s - 1313.73s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist extension with closed hand
+[1313.75s - 1314.22s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist flexion
+[1314.50s - 1315.44s] ✅ TRUE: Wrist ulnar deviation        | PRED: Wrist ulnar deviation
+[1315.61s - 1316.49s] ❌ TRUE: Wrist ulnar deviation        | PRED: Thumb flexion
+[1316.69s - 1316.89s] ❌ TRUE: Wrist ulnar deviation        | PRED: Tip pinch grasp
+[1317.15s - 1321.51s] ✅ TRUE: Rest                         | PRED: Rest
+[1321.54s - 1321.77s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist extension with closed hand
+[1321.77s - 1322.13s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist pronation (axis: little finger)
+[1322.13s - 1322.72s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist flexion
+[1322.76s - 1323.26s] ❌ TRUE: Wrist ulnar deviation        | PRED: Turn a screw
+[1323.46s - 1323.67s] ❌ TRUE: Wrist ulnar deviation        | PRED: Large diameter grasp
+[1323.71s - 1324.08s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist flexion
+[1324.08s - 1324.38s] ❌ TRUE: Wrist ulnar deviation        | PRED: Thumb adduction
+[1324.42s - 1324.63s] ❌ TRUE: Rest                         | PRED: Thumb flexion
+[1324.63s - 1324.86s] ❌ TRUE: Rest                         | PRED: Wrist extension with closed hand
+[1324.86s - 1325.09s] ❌ TRUE: Rest                         | PRED: Cut something
+[1325.30s - 1325.65s] ❌ TRUE: Rest                         | PRED: Pointing index
+[1325.65s - 1329.83s] ✅ TRUE: Rest                         | PRED: Rest
+[1329.98s - 1330.26s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist extension with closed hand
+[1330.26s - 1330.79s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist pronation (axis: little finger)
+[1330.82s - 1331.38s] ❌ TRUE: Wrist ulnar deviation        | PRED: Open a bottle with a tripod grasp
+[1331.38s - 1331.69s] ❌ TRUE: Wrist ulnar deviation        | PRED: Turn a screw
+[1331.69s - 1332.12s] ❌ TRUE: Wrist ulnar deviation        | PRED: Large diameter grasp
+[1332.12s - 1332.38s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist pronation (axis: little finger)
+[1332.38s - 1332.60s] ❌ TRUE: Wrist ulnar deviation        | PRED: Thumb adduction
+[1332.60s - 1332.83s] ❌ TRUE: Wrist ulnar deviation        | PRED: Thumb flexion
+[1333.10s - 1333.35s] ❌ TRUE: Rest                         | PRED: Extension of index and middle, flexion of others
+[1333.84s - 1334.10s] ❌ TRUE: Rest                         | PRED: Pointing index
+[1334.10s - 1334.34s] ✅ TRUE: Rest                         | PRED: Rest
+[1334.44s - 1335.07s] ✅ TRUE: Rest                         | PRED: Rest
+[1335.07s - 1335.49s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[1335.49s - 1335.99s] ✅ TRUE: Rest                         | PRED: Rest
+[1335.99s - 1336.44s] ❌ TRUE: Rest                         | PRED: Tip pinch grasp
+[1336.44s - 1337.25s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[1337.35s - 1337.84s] ❌ TRUE: Rest                         | PRED: Wrist pronation (axis: middle finger)
+[1337.94s - 1338.40s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist pronation (axis: middle finger)
+[1338.40s - 1338.78s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist flexion
+[1339.06s - 1340.34s] ❌ TRUE: Wrist ulnar deviation        | PRED: Open a bottle with a tripod grasp
+[1340.34s - 1340.89s] ❌ TRUE: Wrist ulnar deviation        | PRED: Wrist extension with closed hand
+[1340.89s - 1341.57s] ❌ TRUE: Wrist ulnar deviation        | PRED: Thumb flexion
+[1341.85s - 1342.11s] ❌ TRUE: Wrist ulnar deviation        | PRED: Little finger extension
+[1342.26s - 1346.44s] ✅ TRUE: Rest                         | PRED: Rest
+[1346.70s - 1347.23s] ❌ TRUE: Wrist extension with closed hand | PRED: Wrist pronation (axis: little finger)
+[1347.23s - 1347.50s] ❌ TRUE: Wrist extension with closed hand | PRED: Parallel extension grasp
+[1347.50s - 1349.13s] ✅ TRUE: Wrist extension with closed hand | PRED: Wrist extension with closed hand
+[1349.13s - 1349.41s] ❌ TRUE: Wrist extension with closed hand | PRED: Parallel extension grasp
+[1349.41s - 1350.46s] ❌ TRUE: Wrist extension with closed hand | PRED: Lateral grasp
+[1350.47s - 1350.72s] ❌ TRUE: Wrist extension with closed hand | PRED: Lateral grasp
+[1350.78s - 1351.01s] ❌ TRUE: Wrist extension with closed hand | PRED: Middle flexion
+[1351.01s - 1351.21s] ❌ TRUE: Rest                         | PRED: Middle flexion
+[1351.21s - 1354.77s] ✅ TRUE: Rest                         | PRED: Rest
+[1354.96s - 1356.17s] ✅ TRUE: Wrist extension with closed hand | PRED: Wrist extension with closed hand
+[1356.20s - 1356.49s] ✅ TRUE: Wrist extension with closed hand | PRED: Wrist extension with closed hand
+[1356.63s - 1357.46s] ✅ TRUE: Wrist extension with closed hand | PRED: Wrist extension with closed hand
+[1357.46s - 1357.84s] ❌ TRUE: Wrist extension with closed hand | PRED: Thumb abduction
+[1357.84s - 1358.36s] ❌ TRUE: Wrist extension with closed hand | PRED: Rest
+[1358.36s - 1358.75s] ❌ TRUE: Wrist extension with closed hand | PRED: Middle flexion
+[1359.45s - 1363.00s] ✅ TRUE: Rest                         | PRED: Rest
+[1363.01s - 1363.45s] ❌ TRUE: Wrist extension with closed hand | PRED: Wrist pronation (axis: middle finger)
+[1363.56s - 1363.88s] ❌ TRUE: Wrist extension with closed hand | PRED: Little finger flexion
+[1363.88s - 1365.56s] ✅ TRUE: Wrist extension with closed hand | PRED: Wrist extension with closed hand
+[1365.56s - 1365.96s] ❌ TRUE: Wrist extension with closed hand | PRED: Lateral grasp
+[1366.15s - 1366.72s] ❌ TRUE: Wrist extension with closed hand | PRED: Thumb abduction
+[1366.72s - 1367.06s] ❌ TRUE: Wrist extension with closed hand | PRED: Thumb up
+[1367.56s - 1367.81s] ❌ TRUE: Rest                         | PRED: Wrist pronation (axis: little finger)
+[1367.81s - 1369.33s] ❌ TRUE: Rest                         | PRED: Pointing index
+[1369.33s - 1370.84s] ✅ TRUE: Rest                         | PRED: Rest
+[1370.84s - 1371.17s] ❌ TRUE: Rest                         | PRED: Thumb abduction
+[1371.55s - 1371.94s] ✅ TRUE: Wrist extension with closed hand | PRED: Wrist extension with closed hand
+[1372.15s - 1374.46s] ✅ TRUE: Wrist extension with closed hand | PRED: Wrist extension with closed hand
+[1374.55s - 1374.95s] ❌ TRUE: Wrist extension with closed hand | PRED: Rest
+[1374.95s - 1375.40s] ❌ TRUE: Wrist extension with closed hand | PRED: Wrist pronation (axis: middle finger)
+[1375.40s - 1375.68s] ❌ TRUE: Wrist extension with closed hand | PRED: Pointing index
+[1375.68s - 1375.94s] ❌ TRUE: Rest                         | PRED: Pointing index
+[1375.94s - 1379.99s] ✅ TRUE: Rest                         | PRED: Rest
+[1380.19s - 1380.46s] ❌ TRUE: Wrist extension with closed hand | PRED: Wrist supination (axis: middle finger)
+[1380.46s - 1380.70s] ❌ TRUE: Wrist extension with closed hand | PRED: Wrist pronation (axis: little finger)
+[1380.74s - 1381.92s] ✅ TRUE: Wrist extension with closed hand | PRED: Wrist extension with closed hand
+[1381.92s - 1382.15s] ❌ TRUE: Wrist extension with closed hand | PRED: Cut something
+[1382.15s - 1382.83s] ✅ TRUE: Wrist extension with closed hand | PRED: Wrist extension with closed hand
+[1382.83s - 1383.38s] ❌ TRUE: Wrist extension with closed hand | PRED: Thumb abduction
+[1383.45s - 1383.77s] ❌ TRUE: Wrist extension with closed hand | PRED: Thumb abduction
+[1383.77s - 1384.08s] ❌ TRUE: Wrist extension with closed hand | PRED: Pointing index
+[1384.31s - 1388.14s] ✅ TRUE: Rest                         | PRED: Rest
+[1388.47s - 1388.70s] ❌ TRUE: Wrist extension with closed hand | PRED: Quadpod grasp
+[1388.70s - 1389.04s] ❌ TRUE: Wrist extension with closed hand | PRED: Wrist pronation (axis: little finger)
+[1389.10s - 1391.33s] ✅ TRUE: Wrist extension with closed hand | PRED: Wrist extension with closed hand
+[1391.35s - 1391.58s] ❌ TRUE: Rest                         | PRED: Middle flexion
+[1391.70s - 1392.29s] ❌ TRUE: Rest                         | PRED: Prismatic pinch grasp
+[1392.29s - 1392.57s] ❌ TRUE: Rest                         | PRED: Tip pinch grasp
+[1392.63s - 1396.78s] ✅ TRUE: Rest                         | PRED: Rest
+[1396.78s - 1397.08s] ❌ TRUE: Wrist extension with closed hand | PRED: Ring grasp
+[1397.08s - 1397.39s] ❌ TRUE: Wrist extension with closed hand | PRED: Wrist flexion
+[1397.39s - 1398.52s] ✅ TRUE: Wrist extension with closed hand | PRED: Wrist extension with closed hand
+[1398.71s - 1399.65s] ✅ TRUE: Wrist extension with closed hand | PRED: Wrist extension with closed hand
+[1399.87s - 1400.09s] ❌ TRUE: Wrist extension with closed hand | PRED: Thumb abduction
+[1400.15s - 1400.38s] ❌ TRUE: Wrist extension with closed hand | PRED: Lateral grasp
+[1400.57s - 1400.99s] ❌ TRUE: Wrist extension with closed hand | PRED: Adduction of extended fingers
+[1401.46s - 1405.22s] ✅ TRUE: Rest                         | PRED: Rest
+[1405.28s - 1405.49s] ❌ TRUE: Wrist extension with closed hand | PRED: Middle flexion
+[1405.49s - 1405.88s] ❌ TRUE: Wrist extension with closed hand | PRED: Wrist flexion
+[1405.88s - 1407.94s] ✅ TRUE: Wrist extension with closed hand | PRED: Wrist extension with closed hand
+[1408.03s - 1408.69s] ❌ TRUE: Wrist extension with closed hand | PRED: Rest
+[1408.84s - 1409.23s] ❌ TRUE: Wrist extension with closed hand | PRED: Thumb adduction
+[1409.55s - 1413.43s] ✅ TRUE: Rest                         | PRED: Rest
+[1413.46s - 1413.91s] ❌ TRUE: Wrist extension with closed hand | PRED: Wrist pronation (axis: middle finger)
+[1413.91s - 1414.14s] ❌ TRUE: Wrist extension with closed hand | PRED: Wrist pronation (axis: little finger)
+[1414.24s - 1416.40s] ✅ TRUE: Wrist extension with closed hand | PRED: Wrist extension with closed hand
+[1416.40s - 1416.93s] ❌ TRUE: Wrist extension with closed hand | PRED: Lateral grasp
+[1416.93s - 1417.63s] ❌ TRUE: Wrist extension with closed hand | PRED: Index flexion
+[1417.73s - 1421.99s] ✅ TRUE: Rest                         | PRED: Rest
+[1422.09s - 1422.36s] ❌ TRUE: Wrist extension with closed hand | PRED: Ring flexion
+[1422.36s - 1422.62s] ❌ TRUE: Wrist extension with closed hand | PRED: Open a bottle with a tripod grasp
+[1422.62s - 1424.65s] ✅ TRUE: Wrist extension with closed hand | PRED: Wrist extension with closed hand
+[1424.89s - 1425.45s] ❌ TRUE: Wrist extension with closed hand | PRED: Thumb abduction
+[1425.45s - 1425.77s] ❌ TRUE: Wrist extension with closed hand | PRED: Rest
+[1425.90s - 1426.10s] ✅ TRUE: Wrist extension with closed hand | PRED: Wrist extension with closed hand
+[1426.39s - 1426.61s] ❌ TRUE: Rest                         | PRED: Middle flexion
+=====================================================================================
+
+Generating graphical comparison...
+Graph saved successfully to 'prediction_comparison_v3.png'

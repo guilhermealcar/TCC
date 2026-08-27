@@ -1,34 +1,37 @@
+# src/config.py
 import os
 import torch
 
-# Path Configurations
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-DATA_DIR = os.path.join(BASE_DIR, "data")
-RAW_DATA_DIR = os.path.join(DATA_DIR, "raw")
-PREPROCESSED_DIR = os.path.join(DATA_DIR, "preprocessed")
-MODELS_DIR = os.path.join(BASE_DIR, "models")
-if os.environ.get("USE_CPU", "0") == "1":
-    DEVICE = torch.device("cpu")
-else:
-    DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+# Paths
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))
+RAW_DATA_DIR = os.path.join(BASE_DIR, 'data/raw')
+PREPROCESSED_DIR = os.path.join(BASE_DIR, 'data/preprocessed')
+MODELS_DIR = os.path.join(BASE_DIR, 'models')
 
-# Dynamic Database Configurations
-DATABASE_CONFIGS = {
-    'DB1': {'fs': 100.0,  'n_channels': 10, 'window_ms': 200, 'overlap_pct': 0.5, 'description': '10 channels, 100 Hz'},
-    'DB2': {'fs': 2000.0, 'n_channels': 12, 'window_ms': 200, 'overlap_pct': 0.5, 'description': '12 channels, 2000 Hz'},
-    'DB3': {'fs': 2000.0, 'n_channels': 12, 'window_ms': 200, 'overlap_pct': 0.5, 'description': '12 channels, 2000 Hz'},
-    'DB4': {'fs': 2000.0, 'n_channels': 12, 'window_ms': 200, 'overlap_pct': 0.5, 'description': '12 channels, 2000 Hz'},
-    'DB5': {'fs': 200.0,  'n_channels': 16, 'window_ms': 200, 'overlap_pct': 0.5, 'description': '16 channels, 200 Hz'},
-    'DB6': {'fs': 2000.0, 'n_channels': 14, 'window_ms': 200, 'overlap_pct': 0.5, 'description': '14 channels, 2000 Hz'},
-    'DB7': {'fs': 2000.0, 'n_channels': 12, 'window_ms': 200, 'overlap_pct': 0.5, 'description': '12 channels, 2000 Hz'},
+# Create directories if they don't exist
+os.makedirs(PREPROCESSED_DIR, exist_ok=True)
+os.makedirs(MODELS_DIR, exist_ok=True)
+
+# Hardware
+DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+
+# NinaPro DB1 Movement Lexicon (0-52)
+MOVEMENT_LABELS = {
+    0: "Rest",
+    1: "Index flexion", 2: "Index extension", 3: "Middle flexion", 4: "Middle extension",
+    5: "Ring flexion", 6: "Ring extension", 7: "Little finger flexion", 8: "Little finger extension",
+    9: "Thumb adduction", 10: "Thumb abduction", 11: "Thumb flexion", 12: "Thumb extension",
+    13: "Thumb up", 14: "Extension of index and middle, flexion of others",
+    15: "Flexion of ring and little finger, extension of others", 16: "Thumb opposing base of little finger",
+    17: "Abduction of all fingers", 18: "Fingers flexed together in fist", 19: "Pointing index",
+    20: "Adduction of extended fingers", 21: "Wrist supination (axis: middle finger)",
+    22: "Wrist pronation (axis: middle finger)", 23: "Wrist supination (axis: little finger)",
+    24: "Wrist pronation (axis: little finger)", 25: "Wrist flexion", 26: "Wrist extension",
+    27: "Wrist radial deviation", 28: "Wrist ulnar deviation", 29: "Wrist extension with closed hand",
+    30: "Large diameter grasp", 31: "Small diameter grasp (power grip)", 32: "Fixed hook grasp",
+    33: "Index finger extension grasp", 34: "Medium wrap", 35: "Ring grasp", 36: "Prismatic four fingers grasp",
+    37: "Stick grasp", 38: "Writing tripod grasp", 39: "Power sphere grasp", 40: "Three finger sphere grasp",
+    41: "Precision sphere grasp", 42: "Tripod grasp", 43: "Prismatic pinch grasp", 44: "Tip pinch grasp",
+    45: "Quadpod grasp", 46: "Lateral grasp", 47: "Parallel extension grasp", 48: "Extension type grasp",
+    49: "Power disk grasp", 50: "Open a bottle with a tripod grasp", 51: "Turn a screw", 52: "Cut something"
 }
-
-# Base Filter Thresholds
-LOWCUT = 20.0     
-HIGHCUT = 450.0   
-NOTCH_FREQ = 50.0 
-NOTCH_Q = 30.0
-
-# Class Balancing
-REST_CLASS = 0
-REST_BALANCE_RATIO = 1.5
