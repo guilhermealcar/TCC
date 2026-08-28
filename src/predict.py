@@ -12,6 +12,7 @@ from config import MODELS_DIR, MOVEMENT_LABELS
 from preprocess import sEMGPreprocessor
 from features import extract_fft_magnitude, extract_time_domain_features
 
+
 def smooth_predictions(predictions: np.ndarray, window_size: int = 50) -> np.ndarray:
     """Applies a sliding majority vote to smooth out jumpy predictions."""
     smoothed = np.copy(predictions)
